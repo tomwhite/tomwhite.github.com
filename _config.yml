@@ -9,13 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : "Hadoop: The Definitive Guide"
 tagline: Site Tagline
 author :
-  name : Name Lastname
+  name : Tom White
   email : blah@email.test
-  github : username
-  twitter : username
+  github : tomwhite
+  twitter : tom_e_white
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -99,7 +99,7 @@ JB :
   analytics :
     provider : google
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-3501636-3'
     getclicky :
       site_id : 
 

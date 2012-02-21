@@ -1,45 +1,23 @@
 ---
 layout: page
-title: Hello World!
+title: Hadoop Book
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<a href="http://oreilly.com/catalog/9781449389734/"><img style="float: right; border: 0; margin: 10px" src="http://covers.oreilly.com/images/9781449389734/cat.gif" alt="Hadoop: The Definitive Guide"></a>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+> Now you have the opportunity to learn about Hadoop from a master&mdash;not only of the technology, but also of common sense and plain talk. _&mdash;Doug Cutting, Hadoop Founder_
 
-## Update Author Attributes
+[Hadoop: The Definitive Guide, Second Edition](http://oreilly.com/catalog/9781449389734/) is a book about [Apache Hadoop](http://hadoop.apache.org/) by [Tom White](http://www.oreillynet.com/pub/au/1271), published by O'Reilly Media. From Avro to ZooKeeper, this is the only book that covers all the major projects in the Apache Hadoop ecosystem.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+The [Third Edition](3e.html) will be available in May 2012.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+<a href="http://www.amazon.com/Hadoop-Definitive-Guide-Tom-White/dp/1449389732"><img style="float: left; border: 0; margin: 10px" src="images/buynow.jpg" width="80" height="80"/></a>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+You can buy the book in electronic and paper forms from [O'Reilly](http://oreilly.com/catalog/9781449389734/) (including via [Safari Books Online](http://safari.oreilly.com/9781449389734?cid=orm-cat-readnow-9781449389734)), or in paper form from Amazon ([US](http://www.amazon.com/Hadoop-Definitive-Guide-Tom-White/dp/1449389732), [UK](http://www.amazon.co.uk/Hadoop-Definitive-Guide-Tom-White/dp/1449389732)), and [many other sources](http://en.wikipedia.org/wiki/Special:BookSources/1449389732).
 
-    $ rm -rf _posts/core-samples
+View and submit [errata](http://oreilly.com/catalog/errata.csp?isbn=0636920010388) and [reviews](http://oreilly.com/catalog/9781449389734/#rr) via the O'Reilly website (see also the [reviews for the first edition](http://oreilly.com/catalog/9780596521974/#rr)). You can also email comments to me at [tom@hadoopbook.com](mailto:tom@hadoopbook.com).
 
-Here's a sample "posts list".
+Translations in [Japanese](http://www.oreilly.co.jp/books/9784873115030/), [Korean](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788979148091&orderClick=LAG&Kc=SETLBkserp1_5), and [Simplified Chinese](http://www.amazon.cn/Hadoop%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E6%80%80%E7%89%B9/dp/B0055QFIA6/ref=sr_1_1?s=books&ie=UTF8&qid=1329697918&sr=1-1) are also available.
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+I occasionally write about the book on my [blog](http://www.lexemetech.com/), and on [Twitter](http://twitter.com/tom_e_white).
