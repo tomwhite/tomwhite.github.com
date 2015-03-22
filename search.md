@@ -7,8 +7,15 @@ group: navigation
 
 Search the book contents with Safari Books Online using the following text boxes. This is particularly useful for looking up documentation about Hadoop configuration properties.
 
-<form name="feedback" method="post" action="http://my.safaribooksonline.com/9780596521974">
-<label>Search 1st Edition:</label>
+<form name="feedback" method="post" action="http://my.safaribooksonline.com/9781491901687">
+<label>Search 4th edition:</label>
+<input type="hidden" name="bookview" value="search"/>
+<input type="text" name="query" size="25" value="io.sort.mb"/>
+<input type="submit" value="Search"/>
+</form>
+
+<form name="feedback" method="post" action="http://my.safaribooksonline.com/9781449328917">
+<label>Search 3rd edition:</label>
 <input type="hidden" name="bookview" value="search"/>
 <input type="text" name="query" size="25" value="io.sort.mb"/>
 <input type="submit" value="Search"/>
@@ -16,6 +23,13 @@ Search the book contents with Safari Books Online using the following text boxes
 
 <form name="feedback" method="post" action="http://my.safaribooksonline.com/9781449398644">
 <label>Search 2nd edition:</label>
+<input type="hidden" name="bookview" value="search"/>
+<input type="text" name="query" size="25" value="io.sort.mb"/>
+<input type="submit" value="Search"/>
+</form>
+
+<form name="feedback" method="post" action="http://my.safaribooksonline.com/9780596521974">
+<label>Search 1st Edition:</label>
 <input type="hidden" name="bookview" value="search"/>
 <input type="text" name="query" size="25" value="io.sort.mb"/>
 <input type="submit" value="Search"/>
