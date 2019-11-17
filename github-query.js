@@ -35,23 +35,26 @@ jQuery.fn.loadRepositories = function(username) {
 
         console.log(simpleRepos);
 
+        // in reverse chronological order
         var featuredProjects = [
+            //"mappix",
             //"most-beautiful-formula",
             //"paper-folding",
-            //"mappix",
-            "tennis-ball-parabola",
-            "earth-moon-game",
             "inversions",
-            "dusk",
-            "egg-construction",
             "cubesum",
             "leaning-chairs",
-            "isitdayornight",
-            "gaussian-primes",
+            "tennis-ball-parabola",
+            "dusk",
+            "egg-construction",
+            "earth-moon-game",
             "d3troit",
-            "blockclock",
-            "longview"
-            //"superellipse"
+            "isitdayornight",
+            //"l-systems",
+            "gaussian-primes",
+            //"facebender",
+            "longview",
+            //"superellipse",
+            "blockclock"
         ];
 
         featuredProjects = featuredProjects.map(function(name) {
