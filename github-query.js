@@ -49,7 +49,7 @@ jQuery.fn.loadRepositories = function(username) {
             "earth-moon-game",
             "d3troit",
             "isitdayornight",
-            //"l-systems",
+            "l-systems",
             "gaussian-primes",
             //"facebender",
             "longview",
