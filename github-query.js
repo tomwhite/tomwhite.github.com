@@ -53,7 +53,7 @@ jQuery.fn.loadRepositories = function(username) {
             "gaussian-primes",
             //"facebender",
             "longview",
-            //"superellipse",
+            "superellipse",
             "blockclock"
         ];
 
