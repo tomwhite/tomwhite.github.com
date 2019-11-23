@@ -38,7 +38,7 @@ jQuery.fn.loadRepositories = function(username) {
         // in reverse chronological order
         var featuredProjects = [
             //"mappix",
-            //"most-beautiful-formula",
+            "most-beautiful-formula",
             //"paper-folding",
             "inversions",
             "cubesum",
