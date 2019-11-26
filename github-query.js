@@ -55,6 +55,7 @@ jQuery.fn.loadRepositories = function(username) {
             "longview",
             "superellipse",
             "blockclock",
+            "hyperbolic",
             "chernoff"
         ];
 
