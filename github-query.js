@@ -54,7 +54,8 @@ jQuery.fn.loadRepositories = function(username) {
             //"facebender",
             "longview",
             "superellipse",
-            "blockclock"
+            "blockclock",
+            "chernoff"
         ];
 
         featuredProjects = featuredProjects.map(function(name) {
