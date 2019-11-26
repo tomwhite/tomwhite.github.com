@@ -56,6 +56,7 @@ jQuery.fn.loadRepositories = function(username) {
             "superellipse",
             "blockclock",
             "hyperbolic",
+            "alhambra",
             "chernoff"
         ];
 
