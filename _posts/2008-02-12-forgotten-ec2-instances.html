@@ -1,0 +1,13 @@
+---
+layout: post
+title: Forgotten EC2 instances
+date: '2008-02-12T20:28:00.000Z'
+author: Tom White
+tags:
+- Amazon EC2
+modified_time: '2008-02-12T21:03:59.190Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-8111742251020614276
+blogger_orig_url: http://www.tom-e-white.com/2008/02/forgotten-ec2-instances.html
+---
+
+I noticed today that I had an EC2 development cluster running that I hadn't shut down from a few days ago. It was only a couple of instances, but even so, it was annoying. <a href="http://www.1060.org/blogxter/publish/5">Steve Loughran</a> had a good idea for preventing this: have the cluster shut itself down if it detects you go offline - by using your chat presence. You'd probably want to build a bit of a delay into it to avoid losing work due to some network turbulence, but it would work nicely for short lived clusters which are brought up simply to do a bit of number crunching. Alternatively, and perhaps more lo-tech, the cluster could just email you every few hours to say "I'm still here!".<br /><br />I wonder how many forgotten instances are running at Amazon at any one time. Is there a mass calling of <span style="font-family:courier new;">ec2-terminate-instances</span> every month end when the owners see their bills?

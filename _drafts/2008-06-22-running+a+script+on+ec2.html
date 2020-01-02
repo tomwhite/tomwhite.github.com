@@ -1,0 +1,13 @@
+---
+layout: post
+title: Running a script on EC2
+date: '2008-06-22T21:11:00.003+01:00'
+author: Tom White
+tags:
+- Amazon EC2
+- Amazon S3
+modified_time: '2008-07-26T21:42:40.023+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-7415403892953746312
+---
+
+Want to run a Cpu instensive script, but don't have spare cycles on your local machine? Use EC2 with this neat one-liner<br /><br />ec2-run-instance -f myscript<br /><br />or use the Elasticfox firefox plugin (screencast)<br /><br />Can run a script in one line, in a controlled environment. Can be used to run several scripts, in parallel, for testing.<br /><br />End of script can easily post result to S3, for later analysis. (E.g. s3cmd)<br /><br /><br />

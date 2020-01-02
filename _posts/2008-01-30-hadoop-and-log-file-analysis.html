@@ -1,0 +1,14 @@
+---
+layout: post
+title: Hadoop and Log File Analysis
+date: '2008-01-30T11:38:00.000Z'
+author: Tom White
+tags:
+- MapReduce
+- Hadoop
+modified_time: '2008-01-30T12:25:47.499Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-7098839651234570081
+blogger_orig_url: http://www.tom-e-white.com/2008/01/hadoop-and-log-file-analysis.html
+---
+
+I've always thought that Hadoop is a great fit for analyzing log files (I even wrote <a href="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=873">an article</a> about it). The big win is that you can write <span style="font-style: italic;">ad hoc</span> MapReduce queries against huge datasets and get results in minutes or hours. So I was interested to read Stu Hood's recent <a href="http://blog.racklabs.com/wp-trackback.php?p=66">post</a> about using Hadoop to analyze email log data:<br /><blockquote>Here at <a href="http://www.mailtrust.com/">Mailtrust</a>, Rackspace’s mail division, we are taking advantage of Hadoop to help us wrangle several hundred gigabytes of email log data that our mail servers generate each day. We’ve built a great tool for our support team that lets them search mail logs in order to troubleshoot problems for customers. Until recently, this log search and storage system was centered around a traditional relational database, which worked fine until the exponential growth in the volume of our dataset overcame what a single machine could cope with. The new logging backend we’ve developed based on Hadoop gives us virtually unlimited scalability.</blockquote>The best bit was when they wrote a MapReduce query to find the geographic distribution of their users.<br /><blockquote>This data was so useful that we’ve scheduled the MapReduce job to run monthly and we will be using this data to help us decide which Rackspace data centers to place new mail servers in as we grow.</blockquote>It's great when a technology has the ability to make such a positive contribution to your business. In Doug Cutting's <a href="http://www.25hoursaday.com/weblog/CommentView.aspx?guid=b8df6e9b-b8f1-4159-a9bf-617cdcf5f60e#515ad298-4067-4645-b4db-b4709b89ad6e">words</a>, it is "transformative".<br /><br />Can we take this further? It seems to me that there is a gap in the market for an open source web traffic analysis tool. Think Google Analytics where you can write your own queries. I wonder who's going to build such a thing?<br /><blockquote></blockquote>

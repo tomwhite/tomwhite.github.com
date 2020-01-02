@@ -1,0 +1,13 @@
+---
+layout: post
+title: Hadoop at OSCON 2007
+date: '2007-07-28T11:53:00.000+01:00'
+author: Tom White
+tags:
+- Hadoop
+modified_time: '2007-07-31T07:43:53.096+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-5207296244733453217
+blogger_orig_url: http://www.tom-e-white.com/2007/07/hadoop-at-oscon-2007.html
+---
+
+I wasn't there, but Hadoop had two airings at OSCON this week. Doug Cutting was a part of the <a href="http://radar.oreilly.com/archives/2007/07/oscon_open_sour.html">Open Source Radar Executive Briefing</a> with Tim O'Reilly to talk about scaling.<br /><br />He also gave a talk, with Eric Baldeschwieler, entitled "Meet Hadoop" where he gave a great exposition of the problem that Hadoop is designed to solve. In short: disk seeks are expensive, so databases built using sort-merge, which is limited by transfer speed not seek speed, scale better than traditional B-tree databases, which are limited by seek speed. More details and examples on <a href="http://wiki.apache.org/lucene-hadoop-data/attachments/HadoopPresentations/attachments/oscon-part-1.pdf">the slides</a>.<br /><br />Eric's <a href="http://wiki.apache.org/lucene-hadoop-data/attachments/HadoopPresentations/attachments/oscon-part-2.pdf">half of the talk</a> gave some interesting tidbits about how Hadoop is being used at Yahoo! For example, they are running Hadoop on about 10,000 machines, and the biggest cluster is 1600 machines! With these kind of numbers I can see how Nigel Daley came to coin <a href="http://weblogs.java.net/blog/nidaley/archive/2007/07/nigels_law.html">Nigel's Law</a>:<br /><br /><i>In a large enough cluster, there are NO corner cases</i>

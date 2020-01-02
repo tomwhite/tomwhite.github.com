@@ -1,0 +1,15 @@
+---
+layout: post
+title: Hadoop Query Languages
+date: '2008-06-20T16:01:00.001+01:00'
+author: Tom White
+tags:
+- MapReduce
+- Query Languages
+- Hadoop
+modified_time: '2008-06-20T16:01:44.897+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-7956405302605780166
+blogger_orig_url: http://www.tom-e-white.com/2008/06/hadoop-query-languages.html
+---
+
+If you want a high-level query language for drilling into your huge Hadoop dataset, then you've got some choice:<br /><ul><li><a href="http://incubator.apache.org/pig/">Pig</a>, from Yahoo! and now incubating at Apache, has an imperative language called Pig Latin for performing operations on large data files.</li><li><a href="http://www.jaql.org/">Jaql</a>, from IBM and soon to be open sourced, is a declarative query language for JSON data.<br /></li><li>Hive, from Facebook and soon to <a href="https://issues.apache.org/jira/browse/HADOOP-3601">become a Hadoop contrib module</a>, is a data warehouse system with a declarative query language that is a hybrid of SQL and Hadoop streaming.<br /></li></ul>All three projects have different strengths, but there is plenty of scope for collaboration and cross-pollination, particularly in the query language. For example, at the <a href="http://research.yahoo.com/node/2104">Hadoop Summit</a> in March, Joydeep Sen Sarma of Facebook said that they would be receptive to users who wanted to use Pig Latin or Jaql in Hive. And Kevin Beyer of IBM Research said that Pig and Jaql are converging, and they've had discussions with the Pig team about how to bring them even closer together.<br /><br />Meanwhile, to learn more I recommend <a href="http://www.cs.cmu.edu/%7Eolston/publications/sigmod08.pdf">Pig Latin: A Not-So-Foreign Language for Data Processing</a> (by Chris Olston <span style="font-style: italic;">et al</span><span>), and the <a href="http://research.yahoo.com/node/2104">slides and videos from the Hadoop Summit</a>.</span><br /><br />(And I haven't even included <a href="http://www.cascading.org/">Cascading</a>, from <a href="http://chris.wensel.net/">Chris K. Wensel</a>, which, while not a query language <span style="font-style: italic;">per se</span>, is an abstraction built on MapReduce for building data processing flows in Java or Groovy using a plumbing metaphor with constructs such as taps, pipes, and flows. Well worth a look too.)

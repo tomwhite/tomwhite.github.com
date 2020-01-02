@@ -1,0 +1,13 @@
+---
+layout: post
+title: Serialization Frameworks
+date: '2007-10-20T10:26:00.000+01:00'
+author: Tom White
+tags:
+- Serialization
+- Hadoop
+modified_time: '2007-12-18T10:45:16.846Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-6266336940548436621
+---
+
+Recently I've been thinking about serialization frameworks. The reason is, I'm trying to figure out how to <a href="https://issues.apache.org/jira/browse/HADOOP-1986">make Hadoop MapReduce use a pluggable serialization layer</a>. The motivation behind this is to make it easier to write MapReduce programs - at the moment the key and value types have to be Writable, Hadoop's optimized serialization mechanism. This may not be too onerous, but on the other hand, I think MapReduce would become more idiomatic if I could use Longs and Strings rather than LongWritables and Texts.<br /><br />There is the question of performance, of course, but it should be reasonably easy to write a serializer that mapped common Java types that are Serializable (like Long and String) to their optimized Writable equivalents (LongWritable and Text). And even if this wasn't efficient enough, programmers still have the option to optimise their program using Writables after getting it working using standard Java types.<br /><br />So I wonder is there a Commons Serialization for Java API? Or even a language neutral one? (<a href="http://developers.facebook.com/thrift/">Thrift</a>, for example, provides a language-neutral serialization <font style="font-style: italic;">format</font>, but not a common serialization API in the sense of being able to use a <font style="font-style: italic;">different</font> format with a single API.)<br /><br />What we've come up with to solve the problem for Hadoop is actually a general Serialization API. Could other applications benefit from it?

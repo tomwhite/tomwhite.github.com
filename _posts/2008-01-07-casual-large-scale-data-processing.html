@@ -1,0 +1,14 @@
+---
+layout: post
+title: Casual Large Scale Data Processing
+date: '2008-01-07T09:47:00.000Z'
+author: Tom White
+tags:
+- MapReduce
+- Hadoop
+modified_time: '2008-01-07T10:06:18.419Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-9088902805788058972
+blogger_orig_url: http://www.tom-e-white.com/2008/01/casual-large-scale-data-processing.html
+---
+
+I think Greg Linden hits the nail on the head when he says <a href="http://glinden.blogspot.com/2008/01/mapreducing-20-petabytes-per-day.html">of MapReduce at Google</a>:<br /><blockquote>What is so remarkable about this is how casual it makes large scale data processing. Anyone at Google can write a MapReduce program that uses hundreds or thousands of machines from their cluster. Anyone at Google can process terabytes of data. And they can get their results back in about 10 minutes, so they can iterate on it and try something else if they didn't get what they wanted the first time.</blockquote>I think this is a good way of looking at what Hadoop is trying to achieve - to make large scale data processing as natural as small scale data processing. Hadoop can provide infrastructure to do this, but there is also a need for open datasets that are MapReducable. Imagine if I could run a MapReduce program against Google's web crawl database, Amazon's sales data or Facebook's social graph.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Hadoop beats terabyte sort record
+date: '2008-07-03T14:09:00.005+01:00'
+author: Tom White
+tags:
+- MapReduce
+- Hadoop
+modified_time: '2008-07-03T14:33:27.405+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-5017354658620266704
+blogger_orig_url: http://www.tom-e-white.com/2008/07/hadoop-beats-terabyte-sort-record.html
+---
+
+Hadoop has beaten the record for the terabyte sort benchmark, bringing it from 297 seconds to 209. Owen O'Malley wrote the MapReduce program (which by the way has a clever partitioner to ensure the reducer outputs are globally sorted and not just sorted per output partition, which is what the default sort does), and then ran it on 910 nodes on Yahoo!'s cluster. There are more details in Owen's <a href="http://developer.yahoo.com/blogs/hadoop/2008/07/apache_hadoop_wins_terabyte_sort_benchmark.html">blog post</a> (and there's a link to the benchmark page which has a PDF explaining his program). You can also look at the <a href="http://svn.apache.org/viewvc/hadoop/core/trunk/src/examples/org/apache/hadoop/examples/terasort/">code in trunk</a>.<br /><br />Well done Owen and well done Hadoop!

@@ -1,0 +1,13 @@
+---
+layout: post
+title: RESTful Web Services
+date: '2007-09-07T09:35:00.000+01:00'
+author: Tom White
+tags:
+- Web Services
+modified_time: '2007-09-09T11:46:02.886+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-208660347416188336
+blogger_orig_url: http://www.tom-e-white.com/2007/09/restful-web-services.html
+---
+
+<a href="http://www.oreilly.com/catalog/9780596529260/">RESTful Web Services</a> by Leonard Richardson and Sam Ruby is a great book. It's about how to make the web more programmable, and tells you, through a great mix of theory and practical advice, how you can achieve this for the part of the web you're building.<br /><br />It'll make you think about URLs. (Do you put state in query parameters or the path? See page 121.) It'll make you think about HTTP. (For example, the response code 201 Created, is used to show that the server created a new resource in response to a client POST request.) It'll make you think about the web.<br /><br />I found it gave me a (conceptual) framework to design a RESTful API for an  product we're building at <a href="http://www.kizoom.com/">Kizoom</a>. Sometimes it can be a bit of a struggle to see how to make some operations RESTful (only four verbs remember!), but the design that emerged was actually very simple once I starting thinking about things the right way. Seems like James Strachan had a similar experience; after a <a href="http://macstrac.blogspot.com/2007/07/pure-restful-way-of-working-with.html">rocky start</a> he persevered and now has what looks like a great design for a <a href="http://macstrac.blogspot.com/2007/08/pure-restful-api-to-activemq-via.html">Pure RESTful API to ActiveMQ via AtomPub</a>.

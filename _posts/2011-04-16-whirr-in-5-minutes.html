@@ -1,0 +1,13 @@
+---
+layout: post
+title: Whirr in 5 Minutes
+date: '2011-04-16T23:23:00.005+01:00'
+author: Tom White
+tags:
+- Whirr
+modified_time: '2011-04-18T04:59:14.088+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-8434577759482729644
+blogger_orig_url: http://www.tom-e-white.com/2011/04/whirr-in-5-minutes.html
+---
+
+A couple of days ago I wrote down a sequence of command lines to install <a href="http://incubator.apache.org/whirr/">Apache Whirr</a> (an incubator project for running distributed systems on various cloud providers) and run a service from scratch. You just need Java, SSH, and some <a href="http://incubator.apache.org/whirr/faq.html#How_do_I_find_my_cloud_credentials">cloud credentials</a> (Amazon EC2 in this case): I've reproduced the commands here:<br /><code><br />export AWS_ACCESS_KEY_ID=...<br />export AWS_SECRET_ACCESS_KEY=...<br />curl -O http://www.apache.org/dist/incubator/whirr/whirr-0.4.0-incubating/whirr-0.4.0-incubating.tar.gz<br />tar zxf whirr-0.4.0-incubating.tar.gz; cd whirr-0.4.0-incubating<br />ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa_whirr<br />bin/whirr launch-cluster --config recipes/zookeeper-ec2.properties --private-key-file ~/.ssh/id_rsa_whirr<br /></code><br />At this point you should have a 3 node ZooKeeper cluster running, which is easily checked with<br /><code><br />echo "ruok" | nc $(awk '{print $3}' ~/.whirr/zookeeper/instances | head -1) 2181; echo<br /></code><br />You can shutdown the cluster with the following command.<br /><code><br />bin/whirr destroy-cluster --config recipes/zookeeper-ec2.properties<br /></code><br />There are recipes for more services in the <a href="http://www.apache.org/dyn/closer.cgi/incubator/whirr/">Whirr download</a> package, and more detailed instructions in the <a href="http://incubator.apache.org/whirr/quick-start-guide.html">Quick Start Guide</a>.

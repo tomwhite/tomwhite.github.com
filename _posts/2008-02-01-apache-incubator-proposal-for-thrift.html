@@ -1,0 +1,15 @@
+---
+layout: post
+title: Apache Incubator Proposal for Thrift
+date: '2008-02-01T13:30:00.000Z'
+author: Tom White
+tags:
+- HBase
+- Thrift
+- Hadoop
+modified_time: '2008-02-01T14:32:33.533Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-4902324713504908641
+blogger_orig_url: http://www.tom-e-white.com/2008/02/apache-incubator-proposal-for-thrift.html
+---
+
+There's a <a href="http://wiki.apache.org/incubator/ThriftProposal">proposal</a> for <a href="http://developers.facebook.com/thrift/">Thrift</a> to go into the <a href="http://incubator.apache.org/">Apache Incubator</a>. This seems to me to be a good move - there's increasing interest in Thrift - just look at the number of language bindings that have been contributed: Cocoa/Objective C, C++, C#, Erlang, Haskell, Java, OCaml, Perl, PHP, Python, Ruby, and Squeak at the last count. It's even <a href="http://blog.leetsoft.com/2007/12/30/compiling-thrift-on-osx">fairly painless</a> to compile on Mac OS X now, although it'd be nice to have a Java version of the compiler.<br /><br />Also, there are some nice synergies with other Apache projects - it is already being used in HBase, and there are moves to make it easier to use in Hadoop Core as a <a href="https://issues.apache.org/jira/browse/HADOOP-1986">serialization format</a> (so MapReduce jobs can consume and produce Thrift-formatted data).<br /><br />If the proposal is accepted it will be interesting to see what happens to Hadoop's own language-neutral record serialization package, <a href="http://hadoop.apache.org/core/docs/current/api/org/apache/hadoop/record/package-summary.html">Record I/O</a>. The momentum is certainly with Thrift and discussions on the <a href="http://lists.pub.facebook.com/mailman/listinfo/thrift">mailing list</a> suggest that stuff will eventually be <a href="http://lists.pub.facebook.com/pipermail/thrift/2008-January/000330.html">ported</a> to use Thrift.

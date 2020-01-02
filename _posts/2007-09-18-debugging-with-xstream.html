@@ -1,0 +1,12 @@
+---
+layout: post
+title: Debugging with XStream
+date: '2007-09-18T11:41:00.000+01:00'
+author: Tom White
+tags: 
+modified_time: '2007-09-18T14:07:32.464+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-8488530684136955765
+blogger_orig_url: http://www.tom-e-white.com/2007/09/debugging-with-xstream.html
+---
+
+A little while back a colleague and I had a problem with some data in a large object graph in our system. There were tens of thousands of objects in the graph so we didn't fancy pointing a graphical debugger at it to find where the problem was residing. Most of the objects didn't define a <code>toString</code> method, so we used <a href="http://xstream.codehaus.org/">XStream</a> to get a representation of the object graph and dump it to the console where we picked through it with command line tools and a XML editor. (We found the problem!) The idiom we used was<br /><pre><br />new XStream().toXML(objectGraph, System.out);<br /></pre>

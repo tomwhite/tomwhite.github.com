@@ -1,0 +1,13 @@
+---
+layout: post
+title: JUnit gets flexible and philisophical
+date: '2007-07-28T09:38:00.000+01:00'
+author: Tom White
+tags:
+- Testing
+modified_time: '2007-07-31T07:44:10.341+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-2186662210209693928
+blogger_orig_url: http://www.tom-e-white.com/2007/07/junit-gets-flexible-and-philisophical.html
+---
+
+My colleague <a href="http://chatley.com/blog/">Robert Chatley</a> pointed me to  an <a href="http://www.infoq.com/news/2007/07/new_junit_release">InfoQ announcement</a> about the release of JUnit 4.4. It looks interesting. For a start it includes <a href="http://code.google.com/p/hamcrest/">Hamcrest</a> matchers which allow you to write flexible assertions, using the <code>assertThat</code> construct. I've had some involvement with Hamcrest, and <a href="http://weblogs.java.net/blog/tomwhite/archive/2006/12/hamcrest_1.html">I really like using it</a> since it allows me to write tests that I can read, so I'm really pleased that it's got into JUnit as this can only increase its takeup. Well done <a href="http://joe.truemesh.com/blog/">Joe</a> for having the idea in the first place!<br /><br />The new release also includes <span style="font-style: italic;">theories</span>, adopted from the <a href="http://popper.tigris.org/">Popper JUnit extension</a>, which are tests that apply to a (potentially infinite) set of data points. This reminds me of Andreas Leitner's talk <a href="http://www.youtube.com/watch?v=wFxh0Fpq12I">AutoTest: Push-button testing using contracts</a> from the Google London Test Automation Conference (in 2006) where he talked about using Eiffel contracts to generate test cases to look for contract violations. David Saff is one of the creators of JUnit theories and he also talks about the relation to contracts in his paper (authored with Marat Boshernitsan), <a href="http://shareandenjoy.saff.net/2006/12/new-paper-practice-of-theories.html">The Practice of Theories: Adding "For-all" Statements to "There-Exists" Tests</a>. I'm looking forward to trying this out.

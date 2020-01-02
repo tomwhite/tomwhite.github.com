@@ -1,0 +1,13 @@
+---
+layout: post
+title: Zero-width Negative Lookbehind
+date: '2007-10-02T13:04:00.000+01:00'
+author: Tom White
+tags:
+- Regular Expressions
+modified_time: '2007-10-02T21:15:46.397+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-1089469216509770160
+blogger_orig_url: http://www.tom-e-white.com/2007/10/zero-width-negative-lookbehind.html
+---
+
+Mainly for my own reference:<br /><br /><pre>perl -ple 's/(?&lt;![+-\d])(\d+)/\+$1/g'</pre><br />This will ensure all integers in a string have a leading sign. So for example, "+163, 163, -163" becomes "+163, +163, -163". It works using a <a href="http://www.perl.com/doc/manual/html/pod/perlre.html#item_C">zero-width negative lookbehind assertion</a>: in this case the only "163" in the string that matches is the one that is <span style="font-style: italic;">not</span> preceded by a plus sign, a minus sign, or a digit.<br /><br />This came up at work today (thanks Robin).

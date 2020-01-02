@@ -1,0 +1,14 @@
+---
+layout: post
+title: MapReduce without the Reduce
+date: '2008-03-02T01:03:00.002Z'
+author: Tom White
+tags:
+- MapReduce
+- Hadoop
+modified_time: '2008-03-02T01:29:15.603Z'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-7201201271658646958
+blogger_orig_url: http://www.tom-e-white.com/2008/03/mapreduce-without-reduce.html
+---
+
+There's a class of MapReduce applications that use Hadoop just for its distributed processing capabilities. Telltale signs are:<br /><br />1. Little or no input data of note. (Certainly not large files stored in HDFS.)<br />2. Map tasks are therefore not limited by their ability to consume input, but by their ability to run the task, which depending on the application may be CPU-bound or IO-bound.<br />3. Little or map output.<br />4. No reducers (set by <code>conf.setNumReduceTasks(0)</code>).<br /><br />This seems to work well - indeed the <a href="http://hadoop.apache.org/core/docs/current/api/index.html">CopyFiles</a> program in Hadoop (aka <code>distcp</code>) follows this pattern to efficiently copy files between distributed filesystems:<br /><br />1. The input to each map task is a source file and a destination.<br />2. The map task is limited by its ability to copy the source to the destination (IO-bound).<br />3. The map output is used as a convenience to record files that were skipped.<br />4. There are no reducers.<br /><br />Combined with <a href="http://hadoop.apache.org/core/docs/current/streaming.html">Streaming</a> this is a neat way to distribute your processing in any language. You do need a Hadoop cluster, it is true, but CPU-intensive jobs would happily co-exist with more traditional MapReduce jobs, which are typically fairly light on CPU usage.

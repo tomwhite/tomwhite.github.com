@@ -1,0 +1,15 @@
+---
+layout: post
+title: Processing Petabytes of S3 Data with Hadoop
+date: '2008-05-07T10:12:00.009+01:00'
+author: Tom White
+tags:
+- Amazon EC2
+- Filesystem
+- Hadoop
+- Amazon S3
+modified_time: '2008-06-21T09:47:50.361+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-6092179787481446740
+---
+
+Coming in Hadoop 0.18.0 is a <a href="https://issues.apache.org/jira/browse/HADOOP-930">new Hadoop filesystem</a> that stores files on <a href="http://aws.amazon.com/s3">Amazon S3</a>. The existing S3 filesystem uses S3 as a store for file blocks rather than whole files to allow arbitrarily large files to be stored, but with the downside that it isn't able to read files stored on S3 by other tools (i.e. most of them) or write files that can be read by other tools.<br /><br />The new filesystem opens up the <a href="http://www.allthingsdistributed.com/2008/03/happy_birthday_amazon_s3.html">14 billion objects on S3</a> -- <a href="http://andirog.blogspot.com/2008/03/is-number-of-objects-true-indicator-of.html">estimated</a> at around 20 petabytes -- for distributed processing using Hadoop. (Of course, most of these objects are privately owned and can only be accessed by their owners.) Just as importantly, Hadoop jobs can now write their final output to S3, for further processing by other tools. Since the size of the output is often fairly modest, at least compared to the size of the input, the overhead in writing to S3 compared to HDFS is diminished. A good example of this would be to create interesting visualizations of your output data by writing a script (which can run from anywhere) to pull the data from S3 and run it through a tool like <a href="http://www.r-project.org/">R</a> or <a href="http://processing.org/">Processing</a> to produce the final visualization.<br /><br />(And remember that if Hadoop runs on EC2 then the transfer cost for accessing the S3 filesystem is zero, since transfers between S3 and EC2 are free.)<br />

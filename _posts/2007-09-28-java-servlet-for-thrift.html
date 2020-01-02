@@ -1,0 +1,13 @@
+---
+layout: post
+title: A Java Servlet for Thrift
+date: '2007-09-28T21:56:00.000+01:00'
+author: Tom White
+tags:
+- Web Services
+modified_time: '2007-09-28T22:29:11.630+01:00'
+blogger_id: tag:blogger.com,1999:blog-8898949683610477251.post-1127300335807754090
+blogger_orig_url: http://www.tom-e-white.com/2007/09/java-servlet-for-thrift.html
+---
+
+I've been playing around with <a href="http://developers.facebook.com/thrift/">Thrift</a> (the new version that came out a few days ago), mainly to see how it might be used as a serialization mechanism in Hadoop, but also because the RPC looks useful. It doesn't come with a Java HTTP server transport, so I whipped up a <a href="http://tiling.org/thrift/TServlet.java">servlet</a> to make it easy. Exposing a service is then as simple as subclassing the base servlet to supply a Thrift processor to service the request. For the calculator example from the tutorial:<br /><pre>package server;<br /><br />import tutorial.Calculator;<br /><br />public class CalculatorTServlet extends TServlet {<br /> public CalculatorTServlet() {<br />   super(new Calculator.Processor(new CalculatorHandler()));<br /> }<br />}<br /></pre><br /><br />Invoking the service is easy - you just use the <code>THttpClient</code> transport. Using Thrift over HTTP allows you to use all your existing high-availability and failover infrastructure, which can be attractive. (But also see this <a href="http://lists.pub.facebook.com/pipermail/thrift/2007-August/000056.html">Thrift mailing list thread</a> which gives some more detail on how Facebook tackles high-availability and failover.)
