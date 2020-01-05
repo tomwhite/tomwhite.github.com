@@ -16,13 +16,13 @@ Here is a list of my published articles in reverse chronological order. There ar
 * [Hadoop: Writing and Running Your First Project](https://www.drdobbs.com/database/hadoop-writing-and-running-your-first-pr/240153197), Dr. Dobbs Journal, 23 April 2013
 * [Hadoop: The Lay of the Land](https://www.drdobbs.com/database/hadoop-the-lay-of-the-land/240150854), Dr. Dobbs Journal, 16 April 2013
 * [Asking Any Question Of All Your Data](http://www.forbes.com/2010/11/05/facebook-yahoo-ebay-technology-hadoop.html), [Forbes](http://www.forbes.com/), 8 November 2010
-* [Running Hadoop MapReduce on Amazon EC2 and Amazon S3](http://aws.amazon.com/articles/873?_encoding=UTF8&amp;jiveRedirect=1), [Amazon Web Services Developer Connection](http://developer.amazonwebservices.com/connect/index.jspa), 18 July 2007
-* [Introduction to Nutch, Part 2: Searching](http://today.java.net/pub/a/today/2006/02/16/introduction-to-nutch-2.html), [java.net](http://java.net/), 16 February 2006
-* [Introduction to Nutch, Part 1: Crawling](http://today.java.net/pub/a/today/2006/01/10/introduction-to-nutch-1.html), [java.net](http://java.net/), 10 January 2006
-* [Did You Mean: Lucene?](http://today.java.net/pub/a/today/2005/08/09/didyoumean.html), [java.net](http://java.net/), 9 August 2005.
-* [How To Build a Compute Farm](http://today.java.net/pub/a/today/2005/04/21/farm.html), [java.net](http://java.net/), 21 April 2005
-* [Can't beat Jazzy](http://www-106.ibm.com/developerworks/java/library/j-jazzy/), [IBM developerWorks](http://www-106.ibm.com/developerworks/), 22 September 2004
+* [Running Hadoop MapReduce on Amazon EC2 and Amazon S3](http://aws.amazon.com/articles/873?_encoding=UTF8&amp;jiveRedirect=1), Amazon Web Services Developer Connection, 18 July 2007
+* [Introduction to Nutch, Part 2: Searching](https://web.archive.org/web/20060302114443/http://today.java.net/pub/a/today/2006/02/16/introduction-to-nutch-2.html), java.net, 16 February 2006
+* [Introduction to Nutch, Part 1: Crawling](https://web.archive.org/web/20060302114437/http://today.java.net/pub/a/today/2006/01/10/introduction-to-nutch-1.html), java.net, 10 January 2006
+* [Did You Mean: Lucene?](https://web.archive.org/web/20050811022737/http://today.java.net/pub/a/today/2005/08/09/didyoumean.html), java.net, 9 August 2005
+* [How To Build a Compute Farm](https://web.archive.org/web/20050424022316/http://today.java.net/pub/a/today/2005/04/21/farm.html), java.net, 21 April 2005
+* [Can't beat Jazzy](https://web.archive.org/web/20041107091317/http://www-106.ibm.com/developerworks/java/library/j-jazzy/), IBM developerWorks, 22 September 2004
 * [Using XML Catalogs with JAXP](http://www.xml.com/pub/a/2004/03/03/catalogs.html), [XML.com](http://www.xml.com/), 3 March 2004
-* [Scheduling recurring tasks in Java applications](http://www-106.ibm.com/developerworks/java/library/j-schedule.html), [IBM developerWorks](http://www-106.ibm.com/developerworks/), 4 November 2003
-* [Memoization in Java Using Dynamic Proxy Classes](http://www.onjava.com/pub/a/onjava/2003/08/20/memoization.html), [O'Reilly Network](http://www.oreillynet.com/), 20 August 2003
+* [Scheduling recurring tasks in Java applications](https://web.archive.org/web/20050309013906/http://www-106.ibm.com/developerworks/java/library/j-schedule.html), IBM developerWorks, 4 November 2003
+* [Memoization in Java Using Dynamic Proxy Classes](https://web.archive.org/web/20100102035535/http://www.onjava.com/pub/a/onjava/2003/08/20/memoization.html), O'Reilly Network, 20 August 2003
 * [Using Thread-Local Variables in Java](http://www.drdobbs.com/184405382), [Dr. Dobb's Journal](http://www.ddj.com/), 1 July 2003, #350
