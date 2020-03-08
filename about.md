@@ -46,7 +46,7 @@ with making the software run faster and scale to bigger datasets. The single cel
 [pynndescent](https://github.com/lmcinnes/pynndescent)).
 
 In 2020 I paused my freelance work to spend time on various community
-data analysis and visualization projects.
+data analysis and [visualization](http://tom-e-white.com/datavision/) projects.
 
 If you want to chat, then [please get in touch](mailto:tom.e.white@gmail.com).
 
