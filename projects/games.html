@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width -->
+    <!-- https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns -->
+    <style>
+      .embed-responsive .card-img-top {
+          object-fit: cover;
+          object-position: left;
+      }
+    </style>
+
+    <title>Tom White's Projects</title>
+  </head>
+  <body>
+
+    <h1 class="text-center">Tom White's Projects</h1>
+
+    <p class="text-center">
+      Some of my games projects.
+    </p>
+
+    <div class="container" id="projects">
+    </div>
+
+    <script type="text/javascript">
+      var projects =
+[
+  {
+    "name": "set-game",
+    "description": "Play SET using image recognition and deep learning",
+    "html_url": "https://github.com/tomwhite/set-game"
+  },
+  {
+    "name": "mastermind",
+    "description": "A program for playing the mastermind board game",
+    "html_url": "https://github.com/tomwhite/mastermind"
+  },
+]
+;
+
+    var html = "";
+    for (var i = 0; i < projects.length; i++) {
+      if (i % 4 == 0) {
+        html += '<div class="row mb-4">\n';
+      }
+      var project = projects[i];
+      html += [
+        '<div class="col-sm-3">',
+        '  <div class="card h-100">',
+        '    <div class="embed-responsive embed-responsive-1by1">',
+        '      <a href="' + project.html_url + '"><img class="card-img-top embed-responsive-item" src="../' + project.name + '/logo.png" alt="' + project.name + ' logo"></a>',
+        '    </div>',
+        '    <div class="card-body">',
+        '      <a href="' + project.html_url + '"><h5 class="card-title">' + project.name + '</h5></a>',
+        '      <p class="card-text">' + project.description + '</p>',
+        '      <a href="' + project.html_url + '" class="card-link">Code</a>',
+        '    </div>',
+        '  </div>',
+        '</div>',
+        ''
+       ].join("\n");
+
+       if (i % 4 == 3) {
+         html += '</div>\n';
+       }
+    }
+
+    if (projects.length % 4 != 0) {
+     html += '</div>\n';
+    }
+
+    document.getElementById("projects").innerHTML = html;
+
+    </script>
+
+  </body>
+</html>
