@@ -21,6 +21,12 @@ I ported the single cell preprocessing pipeline in [Scanpy](https://scanpy.readt
 I have made contributions to the dimensionality reduction software [UMAP](https://umap-learn.readthedocs.io/) and the related project
 [pynndescent](https://github.com/lmcinnes/pynndescent) (for calculating approximate nearest neighbours).
 
+## Open Data
+
+In early March 2020 I began [collating the disparate sources of UK COVID-19 data](https://github.com/tomwhite/covid-19-uk-data), by writing web crawlers to integrate the data for COVID-19 tests, confirmed cases, and deaths into a set of CSV files. My work has been used by many different individuals and organisations, including [John Burn-Murdoch's visualizations for the Financial Times](https://www.ft.com/coronavirus-latest).
+
+In 2019 I produced the data analyses and visualizations of Welsh school funding data, for the [Level the Playing Field](http://leveltheplayingfield.wales/) campaign for fair funding for schools in Wales.
+
 ## Visualization
 
 In 2020 I started a [blog about data visualization](http://tom-e-white.com/datavision/) with the goal of creating one interesting visualization per week - with no constraints on dataset, visualization type, or technology.
