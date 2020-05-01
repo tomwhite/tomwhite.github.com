@@ -35,7 +35,7 @@ Over the years I've created many [geometric visualizations](/projects/visualizat
 
 ## Diabetes tech
 
-In 2018 I was [diagnosed](http://tom-e-white.com/2018/04/type-1-diabetes.html) with Type 1 Diabetes, and since then I have written [various pieces of software](https://github.com/search?q=user%3Atomwhite+diabetes) to help manage the condition.
+In 2018 I was [diagnosed](http://tom-e-white.com/2018/04/type-1-diabetes.html) with Type 1 Diabetes, and since then I have written [various pieces of software](https://github.com/search?q=user%3Atomwhite+diabetes&ref=simplesearch) to help manage the condition.
 
 ## Games
 
