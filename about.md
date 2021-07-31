@@ -47,7 +47,8 @@ with making the software run faster and scale to bigger datasets. The single cel
 
 In 2020 I paused my freelance work to spend time on various community
 data analysis and [visualization](http://tom-e-white.com/datavision/) projects.
+Then in early March, as coronavirus began to spread, I began [collating the disparate sources of UK COVID-19 data](https://github.com/tomwhite/covid-19-uk-data).
 
-If you want to chat, then [please get in touch](mailto:tom.e.white@gmail.com).
+In June 2020, I went back to the world of big data and genomics and joined Jeff Hammerbacher's team at [Related Sciences](https://www.related.vc/) to work on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr.
 
-[LinkedIn Profile](https://www.linkedin.com/in/tomwhite/)
+_If you want to chat about any of the above or projects you think I may find interesting, then [please get in touch](mailto:tom.e.white@gmail.com). I also have a [LinkedIn Profile](https://www.linkedin.com/in/tomwhite/)_

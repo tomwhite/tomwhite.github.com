@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Some of the projects I've worked on, and my areas of interest and expertise:
+Some of the projects I've worked on, and my areas of interest and expertise, in no particular order:
 
 ## Hadoop
 
@@ -12,9 +12,11 @@ I was one of the first committers on [Apache Hadoop](https://hadoop.apache.org/)
 
 ## Genomics
 
-I was the primary author of Spark support in [GATK](https://software.broadinstitute.org/gatk/), working with members of the [Broad Institute](https://www.broadinstitute.org/) GATK team. I also created [Disq](https://github.com/disq-bio/disq) for reading and writing bioinformatics sequencing formats from Spark.
+In June 2020, I started working for [Related Sciences](https://www.related.vc/) on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr.
 
 I ported the single cell preprocessing pipeline in [Scanpy](https://scanpy.readthedocs.io/) so it could run in parallel using [Dask](https://dask.org/), and on GPUs using [RAPIDS](https://rapids.ai/).
+
+I was the primary author of Spark support in [GATK](https://software.broadinstitute.org/gatk/), working with members of the [Broad Institute](https://www.broadinstitute.org/) GATK team from 2015 to 2019. I also created [Disq](https://github.com/disq-bio/disq) for reading and writing bioinformatics sequencing formats from Spark.
 
 ## SciPy
 
@@ -29,7 +31,7 @@ In 2019 I produced the data analyses and visualizations of Welsh school funding 
 
 ## Visualization
 
-In 2020 I started a [blog about data visualization](http://tom-e-white.com/datavision/) with the goal of creating one interesting visualization per week - with no constraints on dataset, visualization type, or technology.
+In 2020 I wrote a [blog about data visualization](http://tom-e-white.com/datavision/), and created one new visualization per week - with no constraints on dataset, visualization type, or technology.
 
 Over the years I've created many [geometric visualizations](/projects/visualization.html) in my spare time.
 
@@ -39,4 +41,4 @@ In 2018 I was [diagnosed](http://tom-e-white.com/2018/04/type-1-diabetes.html) w
 
 ## Games
 
-I'm interested in board games and puzzles, and how to get computers to play them. Examples include: [Mastermind](https://github.com/tomwhite/mastermind) and [SET®](https://github.com/tomwhite/set-game).
+I'm interested in board games and puzzles, and how to get computers to play them. Examples include: [Mastermind](https://github.com/tomwhite/mastermind), [SET®](https://github.com/tomwhite/set-game), and [Futoshiki](https://github.com/tomwhite/futoshiki-hints).
