@@ -42,3 +42,9 @@ In 2018 I was [diagnosed](http://tom-e-white.com/2018/04/type-1-diabetes.html) w
 ## Games
 
 I'm interested in board games and puzzles, and how to get computers to play them. Examples include: [Mastermind](https://github.com/tomwhite/mastermind), [SET®](https://github.com/tomwhite/set-game), and [Futoshiki](https://github.com/tomwhite/futoshiki-hints).
+
+## Retro computing
+
+In 2022 I [refurbished](https://tom-e-white.com/2022/12/refurbishing-my-zx81.html) my first computer, a ZX81. I also [recovered](https://github.com/tomwhite/zx81-frogging) the first program I wrote for it from tape. And I've created a website for running programs from the book [Not Only 30 Programs for the Sinclair ZX81](https://tomwhite.github.io/zx81-not-only-30-programs/web/index.html).
+
+Using an emulator I've re-run a [Mandelbrot Set drawing program](https://github.com/tomwhite/mandelbrot-1989) that I wrote for a later computer, an Atari ST.
