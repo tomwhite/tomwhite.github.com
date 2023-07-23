@@ -1,0 +1,266 @@
+[
+  {
+    "name": "reflect",
+    "description": "An optical puzzle",
+    "homepage": "https://tom-e-white.com/reflect/",
+    "html_url": "https://github.com/tomwhite/reflect",
+    "topics": ["games"],
+    "date": "2023"
+  },
+  {
+    "name": "david",
+    "description": "From what position will a statue such as this appear of maximum size?",
+    "homepage": "https://observablehq.com/@tomwhite/david",
+    "html_url": "https://github.com/tomwhite/david",
+    "topics": ["visualization"],
+    "date": "2023-02"
+  },
+  {
+    "name": "8-bit-computer",
+    "description": "Ben Eater's 8-bit computer in CircuitJS1",
+    "homepage": "https://github.com/tomwhite/8-bit-computer",
+    "html_url": "https://github.com/tomwhite/8-bit-computer",
+    "topics": ["retro-computing"],
+    "date": "2023-02"
+  },
+  {
+    "name": "pong",
+    "description": "An Arduino port of pypaddle, which is \"a paddle ball bouncing game very similar to Pong\"",
+    "homepage": "https://github.com/tomwhite/pong",
+    "html_url": "https://github.com/tomwhite/pong",
+    "topics": ["games", "maker", "retro-computing"],
+    "date": "2023-01"
+  },
+  {
+    "name": "zx81-not-only-30-programs",
+    "description": "Run the programs from \"Not Only 30 Programs for the Sinclair ZX81\" in your browser",
+    "homepage": "https://tomwhite.github.io/zx81-not-only-30-programs/web/index.html",
+    "html_url": "https://github.com/tomwhite/zx81-not-only-30-programs",
+    "topics": ["games", "retro-computing"],
+    "date": "2023-01"
+  },
+  {
+    "name": "zx81-refurb",
+    "description": "How I refurbished my ZX81",
+    "homepage": "https://tom-e-white.com/2022/12/refurbishing-my-zx81.html",
+    "html_url": "https://github.com/tomwhite/zx81-refurb",
+    "topics": ["maker", "retro-computing"],
+    "date": "2022-12"
+  },
+  {
+    "name": "riemann-staircase",
+    "description": "Notebooks for computing approximations to the prime counting function using Riemann's formula.",
+    "homepage": "https://github.com/tomwhite/riemann-staircase",
+    "html_url": "https://github.com/tomwhite/riemann-staircase",
+    "topics": ["visualization"],
+    "date": "2021-12"
+  },
+  {
+    "name": "birdcage",
+    "description": "An Arduino recreation of Shannon's Bird Cage",
+    "homepage": "https://github.com/tomwhite/birdcage",
+    "html_url": "https://github.com/tomwhite/birdcage",
+    "topics": ["games", "maker"],
+    "date": "2021"
+  },
+  {
+    "name": "periodic-table",
+    "description": "The Periodic Table, Animated",
+    "homepage": "https://observablehq.com/@tomwhite/the-periodic-table-animated",
+    "html_url": "https://github.com/tomwhite/periodic-table",
+    "topics": ["visualization"],
+    "date": "2021-03"
+  },
+  {
+    "name": "futoshiki-hints",
+    "description": "Futoshiki puzzle hints for humans",
+    "homepage": "https://github.com/tomwhite/futoshiki-hints",
+    "html_url": "https://github.com/tomwhite/futoshiki-hints",
+    "topics": ["games"],
+    "date": "2021-02"
+  },
+  {
+    "name": "mandelbrot-1989",
+    "description": "My programs to draw the Mandelbrot Set from 1989 using GFA Basic on the Atari ST.",
+    "homepage": "https://github.com/tomwhite/mandelbrot-1989",
+    "html_url": "https://github.com/tomwhite/mandelbrot-1989",
+    "topics": ["retro-computing", "visualization"],
+    "date": "2020-12"
+  },
+  {
+    "name": "datavision",
+    "description": "A weekly data visualization in 2020",
+    "homepage": "http://tom-e-white.com/datavision/",
+    "html_url": "https://github.com/tomwhite/datavision-code",
+    "topics": ["visualization"],
+    "date": "2020"
+  },
+  {
+    "name": "most-beautiful-formula",
+    "description": "Animating Euler's equation",
+    "homepage": "https://tomwhite.github.io/most-beautiful-formula/",
+    "html_url": "https://github.com/tomwhite/most-beautiful-formula",
+    "topics": ["visualization"],
+    "date": "2018-06"
+  },
+  {
+    "name": "zx81-frogging",
+    "description": "The first program I ever wrote",
+    "homepage": "http://tom-e-white.com/zx81-frogging/web/frogging.html",
+    "html_url": "https://github.com/tomwhite/zx81-frogging",
+    "topics": ["games", "retro-computing"],
+    "date": "2018-01"
+  },
+  {
+    "name": "set-game",
+    "description": "Play SET using image recognition and deep learning",
+    "homepage": "https://github.com/tomwhite/set-game",
+    "html_url": "https://github.com/tomwhite/set-game",
+    "topics": ["games"],
+    "date": "2017"
+  },
+  {
+    "name": "outguessing",
+    "description": "An Arduino recreation of Shannon's Mind Reading Machine",
+    "homepage": "https://github.com/tomwhite/outguessing",
+    "html_url": "https://github.com/tomwhite/outguessing",
+    "topics": ["games", "maker"],
+    "date": "2016"
+  },
+  {
+    "name": "inversions",
+    "description": "Inspired by Scott Kim's \"Inversions\" I made two designs for my daughters.",
+    "homepage": "https://github.com/tomwhite/inversions",
+    "html_url": "https://github.com/tomwhite/inversions",
+    "topics": ["visualization"],
+    "date": "2015-12"
+  },
+  {
+    "name": "cubesum",
+    "description": "The sum of the first n cubes equals the square of the sum of the first n numbers.",
+    "homepage": "http://tomwhite.github.io/cubesum",
+    "html_url": "https://github.com/tomwhite/cubesum",
+    "topics": ["visualization"],
+    "date": "2015-10"
+  },
+  {
+    "name": "leaning-chairs",
+    "description": "A curve created by chairs leaning against one another",
+    "homepage": "http://tomwhite.github.io/leaning-chairs/",
+    "html_url": "https://github.com/tomwhite/leaning-chairs",
+    "topics": ["visualization"],
+    "date": "2015-04"
+  },
+  {
+    "name": "tennis-ball-parabola",
+    "description": "Plotting a parabola by filming a tennis ball throw.",
+    "homepage": "http://www.tom-e-white.com/2015/03/tennis-ball-parabola.html",
+    "html_url": "https://github.com/tomwhite/tennis-ball-parabola",
+    "topics": ["visualization"],
+    "date": "2015-03"
+  },
+  {
+    "name": "dusk",
+    "description": "A program to plot the time of dusk over the year for any given location on the Earth's surface",
+    "homepage": "http://tomwhite.github.io/dusk/",
+    "html_url": "https://github.com/tomwhite/dusk",
+    "topics": ["visualization"],
+    "date": "2014-01"
+  },
+  {
+    "name": "egg-construction",
+    "description": "Compass constructions for egg shapes from 'Mathographics' by Robert Dixon",
+    "homepage": "http://tomwhite.github.io/egg-construction/index.html",
+    "html_url": "https://github.com/tomwhite/egg-construction",
+    "topics": ["visualization"],
+    "date": "2013-09"
+  },
+  {
+    "name": "earth-moon-game",
+    "description": "A game: how far is the Moon from the Earth?",
+    "homepage": "https://tomwhite.github.io/earth-moon-game",
+    "html_url": "https://github.com/tomwhite/earth-moon-game",
+    "topics": ["games", "visualization"],
+    "date": "2013-03"
+  },
+  {
+    "name": "d3troit",
+    "description": "A d3 visualization of the changing populations of the largest cities in the US",
+    "homepage": "http://tomwhite.github.io/d3troit/index.html",
+    "html_url": "https://github.com/tomwhite/d3troit",
+    "topics": ["visualization"],
+    "date": "2012-07"
+  },
+  {
+    "name": "isitdayornight",
+    "description": "HTML 5 geolocation code that works out if it's day or night",
+    "homepage": "http://bit.ly/isitdayornight",
+    "html_url": "https://github.com/tomwhite/isitdayornight",
+    "topics": ["visualization"],
+    "date": "2011-04"
+  },
+  {
+    "name": "l-systems",
+    "description": "Visualizing L-Systems",
+    "homepage": "http://tomwhite.github.io/l-systems/",
+    "html_url": "https://github.com/tomwhite/l-systems",
+    "topics": ["visualization"],
+    "date": "2010-11"
+  },
+  {
+    "name": "gaussian-primes",
+    "description": "Visualization of Gaussian primes",
+    "homepage": "http://tomwhite.github.io/gaussian-primes/xmas-lines.html",
+    "html_url": "https://github.com/tomwhite/gaussian-primes",
+    "topics": ["visualization"],
+    "date": "2009-12"
+  },
+  {
+    "name": "longview",
+    "description": "A way of looking at time from a long distance.",
+    "homepage": "http://tomwhite.github.io/longview/",
+    "html_url": "https://github.com/tomwhite/longview",
+    "topics": ["visualization"],
+    "date": "2002-03"
+  },
+  {
+    "name": "superellipse",
+    "description": "A program to generate Piet Hein's superellipses.",
+    "homepage": "https://observablehq.com/@tomwhite/superellipse-generator",
+    "html_url": "https://github.com/tomwhite/superellipse",
+    "topics": ["visualization"],
+    "date": "2002-03"
+  },
+  {
+    "name": "blockclock",
+    "description": "A real digital clock",
+    "homepage": "http://tomwhite.github.io/blockclock/",
+    "html_url": "https://github.com/tomwhite/blockclock",
+    "topics": ["visualization"],
+    "date": "2002-01"
+  },
+  {
+    "name": "hyperbolic",
+    "description": "A Java implementation of a draggable hyperbolic display. ",
+    "homepage": "http://tomwhite.github.io/hyperbolic/",
+    "html_url": "https://github.com/tomwhite/hyperbolic",
+    "topics": ["visualization"],
+    "date": "1999-04"
+  },
+  {
+    "name": "alhambra",
+    "description": "A Java API for experimenting with tilings and patterns.",
+    "homepage": "http://tomwhite.github.io/alhambra/",
+    "html_url": "https://github.com/tomwhite/alhambra",
+    "topics": ["visualization"],
+    "date": "1998-08"
+  },
+  {
+    "name": "chernoff",
+    "description": "A visual mood indicator. One of the first Java programs I ever wrote. ",
+    "homepage": "http://tomwhite.github.io/chernoff/",
+    "html_url": "https://github.com/tomwhite/chernoff",
+    "topics": ["visualization"],
+    "date": "1997-01"
+  }
+]

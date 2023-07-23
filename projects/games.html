@@ -41,117 +41,58 @@
     <div class="container" id="projects"></div>
 
     <script type="text/javascript">
-      var projects = [
-        {
-          name: "reflect",
-          description: "An optical puzzle",
-          homepage: "https://tom-e-white.com/reflect/",
-          html_url: "https://github.com/tomwhite/reflect",
-        },
-        {
-          name: "birdcage",
-          description: "An Arduino recreation of Shannon's Bird Cage",
-          homepage: "https://github.com/tomwhite/birdcage",
-          html_url: "https://github.com/tomwhite/birdcage",
-        },
-        {
-          name: "pong",
-          description:
-            'An Arduino port of pypaddle, which is "a paddle ball bouncing game very similar to Pong"',
-          homepage: "https://github.com/tomwhite/pong",
-          html_url: "https://github.com/tomwhite/pong",
-        },
-        {
-          name: "zx81-not-only-30-programs",
-          description:
-            'Run the programs from "Not Only 30 Programs for the Sinclair ZX81" in your browser',
-          homepage:
-            "https://tomwhite.github.io/zx81-not-only-30-programs/web/index.html",
-          html_url: "https://github.com/tomwhite/zx81-not-only-30-programs",
-        },
-        {
-          name: "futoshiki-hints",
-          description: "Futoshiki puzzle hints for humans",
-          homepage: "https://github.com/tomwhite/futoshiki-hints",
-          html_url: "https://github.com/tomwhite/futoshiki-hints",
-        },
-        {
-          name: "set-game",
-          description: "Play SET using image recognition and deep learning",
-          homepage: "https://github.com/tomwhite/set-game",
-          html_url: "https://github.com/tomwhite/set-game",
-        },
-        {
-          name: "outguessing",
-          description:
-            "An Arduino recreation of Shannon's Mind Reading Machine",
-          homepage: "https://github.com/tomwhite/outguessing",
-          html_url: "https://github.com/tomwhite/outguessing",
-        },
-        // {
-        //   name: "mastermind",
-        //   description: "A program for playing the mastermind board game",
-        //   homepage: "https://github.com/tomwhite/mastermind",
-        //   html_url: "https://github.com/tomwhite/mastermind",
-        // },
-        {
-          name: "earth-moon-game",
-          description: "A game: how far is the Moon from the Earth?",
-          homepage: "https://tomwhite.github.io/earth-moon-game",
-          html_url: "https://github.com/tomwhite/earth-moon-game",
-        },
-        {
-          name: "zx81-frogging",
-          description: "The first program I ever wrote",
-          homepage: "http://tom-e-white.com/zx81-frogging/web/frogging.html",
-          html_url: "https://github.com/tomwhite/zx81-frogging",
-        },
-      ];
-      var html = "";
-      for (var i = 0; i < projects.length; i++) {
-        if (i % 4 == 0) {
-          html += '<div class="row mb-4">\n';
-        }
-        var project = projects[i];
-        html += [
-          '<div class="col-sm-3">',
-          '  <div class="card h-100">',
-          '    <div class="embed-responsive embed-responsive-1by1">',
-          '      <a href="' +
-            project.homepage +
-            '"><img class="card-img-top embed-responsive-item" src="https://raw.githubusercontent.com/tomwhite/' +
-            project.name +
-            '/master/logo.png" alt="' +
-            project.name +
-            ' logo"></a>',
-          "    </div>",
-          '    <div class="card-body">',
-          '      <a href="' +
-            project.homepage +
-            '"><h5 class="card-title">' +
-            project.name +
-            "</h5></a>",
-          '      <p class="card-text">' + project.description + "</p>",
-          '      <a href="' +
-            project.homepage +
-            '" class="card-link">More...</a>',
-          '      <a href="' + project.html_url + '" class="card-link">Code</a>',
-          "    </div>",
-          "  </div>",
-          "</div>",
-          "",
-        ].join("\n");
+      fetch("./projects.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const projects = data.filter((d) => d.topics.includes("games"));
+          var html = "";
+          for (var i = 0; i < projects.length; i++) {
+            if (i % 4 == 0) {
+              html += '<div class="row mb-4">\n';
+            }
+            var project = projects[i];
+            html += [
+              '<div class="col-sm-3">',
+              '  <div class="card h-100">',
+              '    <div class="embed-responsive embed-responsive-1by1">',
+              '      <a href="' +
+                project.homepage +
+                '"><img class="card-img-top embed-responsive-item" src="https://raw.githubusercontent.com/tomwhite/' +
+                project.name +
+                '/master/logo.png" alt="' +
+                project.name +
+                ' logo"></a>',
+              "    </div>",
+              '    <div class="card-body">',
+              '      <a href="' +
+                project.homepage +
+                '"><h5 class="card-title">' +
+                project.name +
+                "</h5></a>",
+              '      <p class="card-text">' + project.description + "</p>",
+              '      <a href="' +
+                project.homepage +
+                '" class="card-link">More...</a>',
+              '      <a href="' +
+                project.html_url +
+                '" class="card-link">Code</a>',
+              "    </div>",
+              "  </div>",
+              "</div>",
+              "",
+            ].join("\n");
 
-        if (i % 4 == 3) {
-          html += "</div>\n";
-        }
-      }
+            if (i % 4 == 3) {
+              html += "</div>\n";
+            }
+          }
 
-      if (projects.length % 4 != 0) {
-        html += "</div>\n";
-      }
+          if (projects.length % 4 != 0) {
+            html += "</div>\n";
+          }
 
-      document.getElementById("projects").innerHTML = html;
+          document.getElementById("projects").innerHTML = html;
+        });
     </script>
   </body>
 </html>

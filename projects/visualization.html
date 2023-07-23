@@ -41,205 +41,60 @@
     <div class="container" id="projects"></div>
 
     <script type="text/javascript">
-      var projects = [
-        {
-          name: "david",
-          description:
-            "From what position will a statue such as this appear of maximum size?",
-          homepage: "https://observablehq.com/@tomwhite/david",
-          html_url: "https://github.com/tomwhite/david",
-        },
-        {
-          name: "riemann-staircase",
-          description:
-            "Notebooks for computing approximations to the prime counting function using Riemann's formula.",
-          homepage: "https://github.com/tomwhite/riemann-staircase",
-          html_url: "https://github.com/tomwhite/riemann-staircase",
-        },
-        {
-          name: "periodic-table",
-          description: "The Periodic Table, Animated",
-          homepage:
-            "https://observablehq.com/@tomwhite/the-periodic-table-animated",
-          html_url: "https://github.com/tomwhite/periodic-table",
-        },
-        {
-          name: "datavision",
-          description: "A weekly data visualization in 2020",
-          homepage: "http://tom-e-white.com/datavision/",
-          html_url: "https://github.com/tomwhite/datavision-code",
-        },
-        {
-          name: "most-beautiful-formula",
-          description: "Animating Euler's equation",
-          homepage: "https://tomwhite.github.io/most-beautiful-formula/",
-          html_url: "https://github.com/tomwhite/most-beautiful-formula",
-        },
-        {
-          name: "inversions",
-          description:
-            'Inspired by Scott Kim\'s "Inversions" I made two designs for my daughters.',
-          homepage: "https://github.com/tomwhite/inversions",
-          html_url: "https://github.com/tomwhite/inversions",
-        },
-        {
-          name: "cubesum",
-          description:
-            "The sum of the first n cubes equals the square of the sum of the first n numbers.",
-          homepage: "http://tomwhite.github.io/cubesum",
-          html_url: "https://github.com/tomwhite/cubesum",
-        },
-        {
-          name: "leaning-chairs",
-          description: "A curve created by chairs leaning against one another",
-          homepage: "http://tomwhite.github.io/leaning-chairs/",
-          html_url: "https://github.com/tomwhite/leaning-chairs",
-        },
-        {
-          name: "tennis-ball-parabola",
-          description: "Plotting a parabola by filming a tennis ball throw.",
-          homepage:
-            "http://www.tom-e-white.com/2015/03/tennis-ball-parabola.html",
-          html_url: "https://github.com/tomwhite/tennis-ball-parabola",
-        },
-        {
-          name: "dusk",
-          description:
-            "A program to plot the time of dusk over the year for any given location on the Earth's surface",
-          homepage: "http://tomwhite.github.io/dusk/",
-          html_url: "https://github.com/tomwhite/dusk",
-        },
-        {
-          name: "egg-construction",
-          description:
-            "Compass constructions for egg shapes from 'Mathographics' by Robert Dixon",
-          homepage: "http://tomwhite.github.io/egg-construction/index.html",
-          html_url: "https://github.com/tomwhite/egg-construction",
-        },
-        {
-          name: "earth-moon-game",
-          description: "A game: how far is the Moon from the Earth?",
-          homepage: "https://tomwhite.github.io/earth-moon-game",
-          html_url: "https://github.com/tomwhite/earth-moon-game",
-        },
-        {
-          name: "d3troit",
-          description:
-            "A d3 visualization of the changing populations of the largest cities in the US",
-          homepage: "http://tomwhite.github.io/d3troit/index.html",
-          html_url: "https://github.com/tomwhite/d3troit",
-        },
-        {
-          name: "isitdayornight",
-          description:
-            "HTML 5 geolocation code that works out if it's day or night",
-          homepage: "http://bit.ly/isitdayornight",
-          html_url: "https://github.com/tomwhite/isitdayornight",
-        },
-        {
-          name: "l-systems",
-          description: "Visualizing L-Systems",
-          homepage: "http://tomwhite.github.io/l-systems/",
-          html_url: "https://github.com/tomwhite/l-systems",
-        },
-        {
-          name: "gaussian-primes",
-          description: "Visualization of Gaussian primes",
-          homepage: "http://tomwhite.github.io/gaussian-primes/xmas-lines.html",
-          html_url: "https://github.com/tomwhite/gaussian-primes",
-        },
-        {
-          name: "longview",
-          description: "A way of looking at time from a long distance.",
-          homepage: "http://tomwhite.github.io/longview/",
-          html_url: "https://github.com/tomwhite/longview",
-        },
-        {
-          name: "superellipse",
-          description: "A program to generate Piet Hein's superellipses.",
-          homepage: "https://observablehq.com/@tomwhite/superellipse-generator",
-          html_url: "https://github.com/tomwhite/superellipse",
-        },
-        {
-          name: "blockclock",
-          description: "A real digital clock",
-          homepage: "http://tomwhite.github.io/blockclock/",
-          html_url: "https://github.com/tomwhite/blockclock",
-        },
-        {
-          name: "hyperbolic",
-          description:
-            "A Java implementation of a draggable hyperbolic display. ",
-          homepage: "http://tomwhite.github.io/hyperbolic/",
-          html_url: "https://github.com/tomwhite/hyperbolic",
-        },
-        {
-          name: "alhambra",
-          description:
-            "A Java API for experimenting with tilings and patterns.",
-          homepage: "http://tomwhite.github.io/alhambra/",
-          html_url: "https://github.com/tomwhite/alhambra",
-        },
-        {
-          name: "chernoff",
-          description:
-            "A visual mood indicator. One of the first Java programs I ever wrote. ",
-          homepage: "http://tomwhite.github.io/chernoff/",
-          html_url: "https://github.com/tomwhite/chernoff",
-        },
-        {
-          name: "mandelbrot-1989",
-          description:
-            "My programs to draw the Mandelbrot Set from 1989 using GFA Basic on the Atari ST.",
-          homepage: "https://github.com/tomwhite/mandelbrot-1989",
-          html_url: "https://github.com/tomwhite/mandelbrot-1989",
-        },
-      ];
-      var html = "";
-      for (var i = 0; i < projects.length; i++) {
-        if (i % 4 == 0) {
-          html += '<div class="row mb-4">\n';
-        }
-        var project = projects[i];
-        html += [
-          '<div class="col-sm-3">',
-          '  <div class="card h-100">',
-          '    <div class="embed-responsive embed-responsive-1by1">',
-          '      <a href="' +
-            project.homepage +
-            '"><img class="card-img-top embed-responsive-item" src="https://raw.githubusercontent.com/tomwhite/' +
-            project.name +
-            '/master/logo.png" alt="' +
-            project.name +
-            ' logo"></a>',
-          "    </div>",
-          '    <div class="card-body">',
-          '      <a href="' +
-            project.homepage +
-            '"><h5 class="card-title">' +
-            project.name +
-            "</h5></a>",
-          '      <p class="card-text">' + project.description + "</p>",
-          '      <a href="' +
-            project.homepage +
-            '" class="card-link">More...</a>',
-          '      <a href="' + project.html_url + '" class="card-link">Code</a>',
-          "    </div>",
-          "  </div>",
-          "</div>",
-          "",
-        ].join("\n");
+      fetch("./projects.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const projects = data.filter((d) =>
+            d.topics.includes("visualization")
+          );
+          var html = "";
+          for (var i = 0; i < projects.length; i++) {
+            if (i % 4 == 0) {
+              html += '<div class="row mb-4">\n';
+            }
+            var project = projects[i];
+            html += [
+              '<div class="col-sm-3">',
+              '  <div class="card h-100">',
+              '    <div class="embed-responsive embed-responsive-1by1">',
+              '      <a href="' +
+                project.homepage +
+                '"><img class="card-img-top embed-responsive-item" src="https://raw.githubusercontent.com/tomwhite/' +
+                project.name +
+                '/master/logo.png" alt="' +
+                project.name +
+                ' logo"></a>',
+              "    </div>",
+              '    <div class="card-body">',
+              '      <a href="' +
+                project.homepage +
+                '"><h5 class="card-title">' +
+                project.name +
+                "</h5></a>",
+              '      <p class="card-text">' + project.description + "</p>",
+              '      <a href="' +
+                project.homepage +
+                '" class="card-link">More...</a>',
+              '      <a href="' +
+                project.html_url +
+                '" class="card-link">Code</a>',
+              "    </div>",
+              "  </div>",
+              "</div>",
+              "",
+            ].join("\n");
 
-        if (i % 4 == 3) {
-          html += "</div>\n";
-        }
-      }
+            if (i % 4 == 3) {
+              html += "</div>\n";
+            }
+          }
 
-      if (projects.length % 4 != 0) {
-        html += "</div>\n";
-      }
+          if (projects.length % 4 != 0) {
+            html += "</div>\n";
+          }
 
-      document.getElementById("projects").innerHTML = html;
+          document.getElementById("projects").innerHTML = html;
+        });
     </script>
   </body>
 </html>

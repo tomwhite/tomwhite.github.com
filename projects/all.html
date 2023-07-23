@@ -31,9 +31,9 @@
     <h1 class="text-center">Tom White's Projects</h1>
 
     <p class="text-center">
-      Some of my maker projects (more on
+      Some of my projects (more on
       <a
-        href="https://github.com/search?o=desc&q=user%3Atomwhite+maker&s=updated&type=Repositories"
+        href="https://github.com/search?o=desc&q=user%3Atomwhite&s=updated&type=Repositories"
         >GitHub</a
       >).
     </p>
@@ -44,7 +44,7 @@
       fetch("./projects.json")
         .then((response) => response.json())
         .then((data) => {
-          const projects = data.filter((d) => d.topics.includes("maker"));
+          const projects = data;
           var html = "";
           for (var i = 0; i < projects.length; i++) {
             if (i % 4 == 0) {
