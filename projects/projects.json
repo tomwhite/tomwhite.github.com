@@ -96,6 +96,14 @@
     "date": "2020"
   },
   {
+    "name": "mappix",
+    "description": "Minimal pixellated maps",
+    "homepage": "https://tomwhite.github.io/mappix/",
+    "html_url": "https://github.com/tomwhite/mappix",
+    "topics": ["visualization"],
+    "date": "2018-10"
+  },
+  {
     "name": "most-beautiful-formula",
     "description": "Animating Euler's equation",
     "homepage": "https://tomwhite.github.io/most-beautiful-formula/",
