@@ -160,6 +160,14 @@
     "date": "2015-03"
   },
   {
+    "name": "mastermind",
+    "description": "A program for playing the mastermind board game",
+    "homepage": "https://github.com/tomwhite/mastermind",
+    "html_url": "https://github.com/tomwhite/mastermind",
+    "topics": ["games"],
+    "date": "2014-12"
+  },
+  {
     "name": "dusk",
     "description": "A program to plot the time of dusk over the year for any given location on the Earth's surface",
     "homepage": "http://tomwhite.github.io/dusk/",
