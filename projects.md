@@ -48,3 +48,7 @@ I'm interested in board games and puzzles, and how to get computers to play them
 In 2022 I [refurbished](https://tom-e-white.com/2022/12/refurbishing-my-zx81.html) my first computer, a ZX81. I also [recovered](https://github.com/tomwhite/zx81-frogging) the first program I wrote for it from tape. And I've created a website for running programs from the book [Not Only 30 Programs for the Sinclair ZX81](https://tomwhite.github.io/zx81-not-only-30-programs/web/index.html).
 
 Using an emulator I've re-run a [Mandelbrot Set drawing program](https://github.com/tomwhite/mandelbrot-1989) that I wrote for a later computer, an Atari ST.
+
+## Directory
+
+[All](/projects/all.html) | [Games](/projects/games.html) | [Maker](/projects/maker.html) | [Retro computing](/projects/retro-computing.html) | [Visualization](/projects/visualization.html)
