@@ -13,8 +13,8 @@ then did a masters in philosophy of science at Leeds and Florence.
 In 1996 I moved to London to start work at [Reuters](https://en.wikipedia.org/wiki/Reuters), where I learnt C and HTML, and the
 then newly-minted Java programming language. I then worked at a small Java consultancy
 called Objective, before joining Kizoom in 1999. Kizoom was my first startup - we built
-apps to make commuters lives easier by providing services to plan train journeys, get alerted
-to tube delays, or find out when the next bus was due.
+phone apps to make commuters lives easier by providing services to plan train journeys, get alerted
+to tube delays, or find out when the next bus was due. (This was on phones like the [Nokia 7110](https://en.wikipedia.org/wiki/Nokia_7110) - long before the iPhone came out.)
 
 In 1998 I met Eliane, and our daughters were born in 2002 and 2004. In 2007 we left
 London and moved to Crickhowell in the [Brecon Beacons](https://en.wikipedia.org/wiki/Brecon_Beacons) in Wales.
@@ -50,5 +50,7 @@ data analysis and [visualization](http://tom-e-white.com/datavision/) projects.
 Then in early March, as coronavirus began to spread, I began [collating the disparate sources of UK COVID-19 data](https://github.com/tomwhite/covid-19-uk-data).
 
 In June 2020, I went back to the world of big data and genomics and joined Jeff Hammerbacher's team at [Related Sciences](https://www.related.vc/) to work on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr.
+
+In 2022 I founded a new project called [Cubed](https://github.com/cubed-dev/cubed) as a drop-in replacement for Dask. As a result of this I started working with the [Pangeo](https://discourse.pangeo.io/) community on the problem of how to scale up geoscience workloads to run on cloud infrastructure.
 
 _If you want to chat about any of the above or projects you think I may find interesting, then [please get in touch](mailto:tom.e.white@gmail.com). I also have a [LinkedIn Profile](https://www.linkedin.com/in/tomwhite/)_

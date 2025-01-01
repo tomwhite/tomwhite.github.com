@@ -6,6 +6,11 @@ permalink: /projects/
 
 Some of the projects I've worked on, and my areas of interest and expertise, in no particular order:
 
+## Cubed
+
+[Cubed](https://github.com/cubed-dev/cubed) is a project I started in 2022 as a drop-in replacement for Dask, to make
+running large-scale array processing workloads more reliable. It is now being used for workloads in sgkit (genomics) and Pangeo (geoscience).
+
 ## Hadoop
 
 I was one of the first committers on [Apache Hadoop](https://hadoop.apache.org/), and worked on it and many other distributed systems projects in the Hadoop ecosystem for the best part of a decade while working at [Cloudera](https://www.cloudera.com/). I wrote four editions of the bestselling book [Hadoop: The Definitive Guide](http://www.hadoopbook.com/), published by O'Reilly.
