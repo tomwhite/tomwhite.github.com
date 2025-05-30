@@ -1,5 +1,13 @@
 [
   {
+    "name": "false-summits",
+    "description": "Visualizing false summits from GPX route traces",
+    "homepage": "https://tom-e-white.com/false-summits/",
+    "html_url": "https://github.com/tomwhite/false-summits",
+    "topics": ["visualization"],
+    "date": "2025-05"
+  },
+  {
     "name": "ge-2024",
     "description": "An animation that relives the night of the Labour landslide",
     "homepage": "https://tom-e-white.com/ge-2024/",
