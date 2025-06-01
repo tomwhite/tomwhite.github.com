@@ -56,4 +56,4 @@ Using an emulator I've re-run a [Mandelbrot Set drawing program](https://github.
 
 ## Directory
 
-[All](/projects/all.html) | [Games](/projects/games.html) | [Maker](/projects/maker.html) | [Retro computing](/projects/retro-computing.html) | [Visualization](/projects/visualization.html)
+[All](/projects/all.html) | [Games](/projects/games.html) | [Maker](/projects/maker.html) | [Maths](/projects/maths.html) | [Retro computing](/projects/retro-computing.html) | [Visualization](/projects/visualization.html)
