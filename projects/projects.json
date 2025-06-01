@@ -226,7 +226,7 @@
   {
     "name": "isitdayornight",
     "description": "HTML 5 geolocation code that works out if it's day or night",
-    "homepage": "http://bit.ly/isitdayornight",
+    "homepage": "https://tomwhite.github.io/isitdayornight/",
     "html_url": "https://github.com/tomwhite/isitdayornight",
     "topics": ["visualization"],
     "date": "2011-04"
