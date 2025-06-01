@@ -144,6 +144,14 @@
     "date": "2017"
   },
   {
+    "name": "pangrams",
+    "description": "Code to search for (Lee Sallows) pangrams for my family",
+    "homepage": "https://github.com/tomwhite/pangrams",
+    "html_url": "https://github.com/tomwhite/pangrams",
+    "topics": ["family", "maths"],
+    "date": "2016-11"
+  },
+  {
     "name": "outguessing",
     "description": "An Arduino recreation of Shannon's Mind Reading Machine",
     "homepage": "https://github.com/tomwhite/outguessing",
