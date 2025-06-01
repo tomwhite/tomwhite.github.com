@@ -248,6 +248,14 @@
     "date": "2009-12"
   },
   {
+    "name": "facebender",
+    "description": "A project from A. K. Dewdney's 'The Armchair Universe' for producing caricatures.",
+    "homepage": "https://github.com/tomwhite/facebender",
+    "html_url": "https://github.com/tomwhite/facebender",
+    "topics": ["visualization"],
+    "date": "2002-04"
+  },
+  {
     "name": "longview",
     "description": "A way of looking at time from a long distance.",
     "homepage": "http://tomwhite.github.io/longview/",
