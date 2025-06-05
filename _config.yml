@@ -24,8 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Problems worthy of attack prove their worth by hitting back — Piet Hein
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tom_e_white
 github_username:  tomwhite
+mastodon:
+ - username: tom_e_white
+   instance: mstdn.social  
 
 # Build settings
 theme: minima
