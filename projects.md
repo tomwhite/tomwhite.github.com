@@ -9,7 +9,7 @@ Some of the projects I've worked on, and my areas of interest and expertise, in 
 ## Cubed
 
 [Cubed](https://github.com/cubed-dev/cubed) is a project I started in 2022 as a drop-in replacement for Dask, to make
-running large-scale array processing workloads more reliable. It is now being used for workloads in sgkit (genomics) and Pangeo (geoscience).
+running large-scale array processing workloads more reliable. It has been used for workloads in sgkit (genomics) and Pangeo (geoscience).
 
 ## Hadoop
 
@@ -17,7 +17,7 @@ I was one of the first committers on [Apache Hadoop](https://hadoop.apache.org/)
 
 ## Genomics
 
-In June 2020, I started working for [Related Sciences](https://www.related.vc/) on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr.
+In June 2020, I started working for [Related Sciences](https://www.related.vc/) on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr. This work culminated in a new Zarr-based file format for variant data ([VCF Zarr](https://github.com/sgkit-dev/vcf-zarr-spec)), new tools for working with this data ([bio2zarr](https://github.com/sgkit-dev/bio2zarr) and [vcztools](https://github.com/sgkit-dev/vcztools)), and a published paper: ['Analysis-ready VCF at Biobank scale using Zarr'](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giaf049/8154315).
 
 I ported the single cell preprocessing pipeline in [Scanpy](https://scanpy.readthedocs.io/) so it could run in parallel using [Dask](https://dask.org/), and on GPUs using [RAPIDS](https://rapids.ai/).
 
