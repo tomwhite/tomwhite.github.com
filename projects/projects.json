@@ -300,7 +300,7 @@
     "description": "A Java implementation of a draggable hyperbolic display. ",
     "homepage": "http://tomwhite.github.io/hyperbolic/",
     "html_url": "https://github.com/tomwhite/hyperbolic",
-    "topics": ["visualization"],
+    "topics": ["maths", "visualization"],
     "date": "1999-04"
   },
   {
