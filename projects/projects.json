@@ -1,5 +1,21 @@
 [
   {
+    "name": "thehill",
+    "description": "A two-player game from 1985 written in Sinclair QL SuperBASIC",
+    "homepage": "https://tom-e-white.com/thehill/",
+    "html_url": "https://github.com/tomwhite/thehill",
+    "topics": ["games", "retro-computing"],
+    "date": "2025-08-16"
+  },
+  {
+    "name": "ardubat",
+    "description": "Visualizations of bat activity over the year using an Arduino bat detector",
+    "homepage": "https://observablehq.com/d/682fb4043d9dadb7",
+    "html_url": "https://github.com/tomwhite/ardubat",
+    "topics": ["maker", "visualization"],
+    "date": "2025-07-20"
+  },
+  {
     "name": "false-summits",
     "description": "Visualizing false summits from GPX route traces",
     "homepage": "https://tom-e-white.com/false-summits/",
