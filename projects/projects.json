@@ -248,12 +248,28 @@
     "date": "2013-03"
   },
   {
+    "name": "how-far-away-is-the-sea",
+    "description": "An app for calculating the shortest distance to the sea from any point on Earth.",
+    "homepage": "https://how-far-away-is-the-sea.appspot.com/",
+    "html_url": "https://github.com/tomwhite/how-far-away-is-the-sea",
+    "topics": ["maths", "visualization"],
+    "date": "2012-12-31"
+  },
+  {
     "name": "d3troit",
     "description": "A d3 visualization of the changing populations of the largest cities in the US",
     "homepage": "http://tomwhite.github.io/d3troit/index.html",
     "html_url": "https://github.com/tomwhite/d3troit",
     "topics": ["visualization"],
     "date": "2012-07"
+  },
+  {
+    "name": "apportionment",
+    "description": "Calculating apportionments for the House of Representatives using the Huntington-Hill method.",
+    "homepage": "https://tom-e-white.com/2012/12/apportionment.html",
+    "html_url": "https://github.com/tomwhite/apportionment",
+    "topics": ["maths"],
+    "date": "2012-07-01"
   },
   {
     "name": "isitdayornight",
