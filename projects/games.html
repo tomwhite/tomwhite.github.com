@@ -25,6 +25,8 @@
       }
     </style>
 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
     <title>Tom White's Projects</title>
   </head>
   <body>
@@ -41,25 +43,33 @@
     <div class="container" id="projects"></div>
 
     <script type="text/javascript">
-      fetch("./projects.json")
-        .then((response) => response.json())
-        .then((data) => {
-          const projects = data.filter((d) => d.topics.includes("games"));
+      d3.csv("projects-db.csv").then(function(data) {
+          if (data.length === 0) return;
+
+          var projects = data.filter((d) =>
+            d.published === "Y" &&
+            d.topics.includes("games")
+          );
+
+          // In reverse chronological order
+          projects = d3.sort(projects, (a, b) => d3.descending(a.date, b.date));
+
           var html = "";
           for (var i = 0; i < projects.length; i++) {
             if (i % 4 == 0) {
               html += '<div class="row mb-4">\n';
             }
             var project = projects[i];
+            var logo_url = project.logo_url ? project.logo_url : `https://raw.githubusercontent.com/tomwhite/${project.name}/master/logo.png`
             html += [
               '<div class="col-sm-3">',
               '  <div class="card h-100">',
               '    <div class="embed-responsive embed-responsive-1by1">',
               '      <a href="' +
                 project.homepage +
-                '"><img class="card-img-top embed-responsive-item" src="https://raw.githubusercontent.com/tomwhite/' +
-                project.name +
-                '/master/logo.png" alt="' +
+                '"><img class="card-img-top embed-responsive-item" src="' +
+                logo_url +
+                '" alt="' +
                 project.name +
                 ' logo"></a>',
               "    </div>",
@@ -92,7 +102,7 @@
           }
 
           document.getElementById("projects").innerHTML = html;
-        });
+      }).catch(error => console.error("Error loading CSV:", error));
     </script>
   </body>
 </html>
