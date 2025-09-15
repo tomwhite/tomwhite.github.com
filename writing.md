@@ -15,6 +15,7 @@ Here is a list of my published articles in reverse chronological order. There ar
 * [Hail: Scalable Genomics Analysis with Apache Spark](https://web.archive.org/web/20170505123239/http://blog.cloudera.com/blog/2017/05/hail-scalable-genomics-analysis-with-spark/), Cloudera blog, 2 May 2017
 * [How I Got Into Hadoop](https://web.archive.org/web/20190507035707/http://vision.cloudera.com/how-i-got-into-hadoop/), Cloudera blog, 19 April 2016
 * [Genome Analysis Toolkit: Now Using Apache Spark for Data Processing](https://web.archive.org/web/20180813162245/http://blog.cloudera.com/blog/2016/04/genome-analysis-toolkit-now-using-apache-spark-for-data-processing/), Cloudera blog, 6 April 2016
+* [Introduction to Hadoop: Write big data applications with Hadoop and the Kite SDK](https://tom-e-white.com/articles/hadoop-java-magazine/Java%20Magazine%202014.01-02.pdf), Java Magazine, pp40-46, January/February 2014
 * [Introduction to Hadoop: Real-World Hadoop Clusters and Applications](https://web.archive.org/web/20130502133512/https://www.drdobbs.com/database/introduction-to-hadoop-real-world-hadoop/240153375), Dr. Dobbs Journal, 30 April 2013
 * [Hadoop: Writing and Running Your First Project](https://web.archive.org/web/20130428231108/https://www.drdobbs.com/database/hadoop-writing-and-running-your-first-pr/240153197), Dr. Dobbs Journal, 23 April 2013
 * [Hadoop: The Lay of the Land](https://web.archive.org/web/20130419124550/https://www.drdobbs.com/database/hadoop-the-lay-of-the-land/240150854), Dr. Dobbs Journal, 16 April 2013
