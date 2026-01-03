@@ -1,5 +1,5 @@
 name,my_project,published,description,homepage,html_url,logo_url,topics,date,evernote_url,see_also,inspiration_reference
-1-million-trees,Y,N,1 Million Trees in the Brecon Beacons,,https://github.com/tomwhite/1-million-trees,,"visualization,local-community",,https://share.evernote.com/note/ef4f1c35-cc37-4c40-9763-7d0a433c96de,,
+1-million-trees,Y,N,1 Million Trees in the Brecon Beacons,,https://github.com/tomwhite/1-million-trees,,"visualization,local-community,geo",,https://share.evernote.com/note/ef4f1c35-cc37-4c40-9763-7d0a433c96de,,
 23andme-impute,N,N,Run IMPUTE2 on 23 and me,,,,genomics,,https://share.evernote.com/note/6e9ff10e-ebdb-1c5b-65ea-153b11205697,,
 8-bit-computer,Y,Y,Ben Eater's 8-bit computer in CircuitJS1,https://github.com/tomwhite/8-bit-computer,https://github.com/tomwhite/8-bit-computer,,retro-computing,2023-02-01,,,Ben Eater
 aboutme,Y,N,Old website (replaced by tomwhite.github.com),,,,,,,,
@@ -54,30 +54,30 @@ dboard,Y,N,A dashboard for Type 1 Diabetes.,,https://github.com/tomwhite/dboard,
 dboard-js,Y,N,Javascript version of dboard,,,,"t1d,visualization",,https://share.evernote.com/note/3810ac8b-5b14-45de-8720-215ff0ebce51,,
 diabetes-site-rotation,Y,N,Diagram for injection sites,,,,t1d,,,,
 diffdiff,Y,N,Automatic differentiation of computer functions,,https://github.com/tomwhite/diffdiff,,,,https://share.evernote.com/note/a98bd0cd-84aa-49d3-81dd-4eab1498cf33,,
-dusk,Y,Y,A program to plot the time of dusk over the year for any given location on the Earth's surface,http://tomwhite.github.io/dusk/,https://github.com/tomwhite/dusk,,visualization,2014-01-01,,,
-earth-moon-game,Y,Y,A game: how far is the Moon from the Earth?,https://tomwhite.github.io/earth-moon-game,https://github.com/tomwhite/earth-moon-game,,"games,visualization",2013-03-01,,,
+dusk,Y,Y,A program to plot the time of dusk over the year for any given location on the Earth's surface,http://tomwhite.github.io/dusk/,https://github.com/tomwhite/dusk,,"geo,visualization",2014-01-01,,,
+earth-moon-game,Y,Y,A game: how far is the Moon from the Earth?,https://tomwhite.github.io/earth-moon-game,https://github.com/tomwhite/earth-moon-game,,"games,geo,visualization",2013-03-01,,,
 edge-detection,Y,N,Find an egg shape from an input image,,,,,,,,
 egg-construction,Y,Y,Compass constructions for egg shapes from 'Mathographics' by Robert Dixon,http://tomwhite.github.io/egg-construction/index.html,https://github.com/tomwhite/egg-construction,,visualization,2013-09-01,,,Mathographics' by Robert Dixon
 egg-fitting,Y,N,Fitting egg shapes,,,,,,https://share.evernote.com/note/7cea3e75-14f6-4922-a7bd-16edbe9fc8a0,,
 enigma,Y,N,A few New Scientist Enigma puzzle solutions,,,,,,,,
 facebender,Y,Y,A project from A. K. Dewdney's 'The Armchair Universe' for producing caricatures.,https://github.com/tomwhite/facebender,https://github.com/tomwhite/facebender,,visualization,2002-04-01,https://share.evernote.com/note/540f22fb-dbb9-4b0a-898e-5c1285217637,,"A. K. Dewdney, 'The Armchair Universe'"
-false-summits,Y,Y,Visualizing false summits from GPX route traces,https://tom-e-white.com/false-summits/,https://github.com/tomwhite/false-summits,,visualization,2025-05-30,https://share.evernote.com/note/2443ea0c-58cc-b628-d59a-19005ab11b78,,
+false-summits,Y,Y,Visualizing false summits from GPX route traces,https://tom-e-white.com/false-summits/,https://github.com/tomwhite/false-summits,,"geo,visualization",2025-05-30,https://share.evernote.com/note/2443ea0c-58cc-b628-d59a-19005ab11b78,,
 ffawyddog.com,Y,N,Ffawyddog Phonebox website,https://ffawyddog.com/,https://github.com/tomwhite/ffawyddog.com,,local-community,,https://share.evernote.com/note/8b838a16-69be-4a3a-0172-042b08e33c8f,,
 freeloader,Y,N,Recreation of a cooperative group game from the Exploratorium in SF,,,,games,,https://share.evernote.com/note/d8ea9e2c-ef50-4f44-b962-1840f2cf426e,,"The Exploratorium, SF"
 futoshiki,Y,N,Futoshiki solver using MiniZinc and js (superceded by futoshiki-hints),,,,games,,,futoshiki-hints,
 futoshiki-hints,Y,Y,Futoshiki puzzle hints for humans,https://github.com/tomwhite/futoshiki-hints,https://github.com/tomwhite/futoshiki-hints,,games,2021-02-01,https://share.evernote.com/note/528855e5-36e5-4e28-9012-cfed7b0e046b,futoshiki,
 ga,Y,N,A simple Java package for writing genetic algorithms (GAs).,,https://github.com/tomwhite/ga,,,,,,
 gaussian-primes,Y,Y,Visualization of Gaussian primes,http://tomwhite.github.io/gaussian-primes/xmas-lines.html,https://github.com/tomwhite/gaussian-primes,,visualization,2009-12-01,,,"The Book of Numbers, Conway and Guy"
-ge-2024,Y,Y,An animation that relives the night of the Labour landslide,https://tom-e-white.com/ge-2024/,https://github.com/tomwhite/ge-2024,,visualization,2024-07-01,,,
+ge-2024,Y,Y,An animation that relives the night of the Labour landslide,https://tom-e-white.com/ge-2024/,https://github.com/tomwhite/ge-2024,,"geo,visualization",2024-07-01,,,
 guac,Y,N,Exploring the genetic code,,https://github.com/tomwhite/guac,,"visualization,genomics",,https://share.evernote.com/note/faeaf70a-9049-4a3e-be86-a9eecf97334c,,
 gutted,Y,N,Investigating gut health,,,,,,https://share.evernote.com/note/8bad1f9f-b89e-cf0f-a4fd-41cd0d4be9f4,,
 hadoopbook.com,Y,N,"Example source code accompanying O'Reilly's ""Hadoop: The Definitive Guide"" by Tom White",http://www.hadoopbook.com/,https://github.com/tomwhite/hadoop-book,,hadoop,,,,
 heightcharts,Y,N,"Height data for the girls, and code to produce charts",,,,"family,visualization",,,,
 hla-prs-toolkit,N,N,Webapp (that I wrote) to run T1D PRS,,,,t1d,,"https://share.evernote.com/note/6e9ff10e-ebdb-1c5b-65ea-153b11205697, https://share.evernote.com/note/73278814-0052-355d-bdc4-e9890116b591",,
 house-hunting,Y,N,Scripts for visualizing local house prices when we bought Berllan,,,,home,,,,
-how-far-away-is-the-sea,Y,Y,An app for calculating the shortest distance to the sea from any point on Earth.,https://how-far-away-is-the-sea.appspot.com/,https://github.com/tomwhite/how-far-away-is-the-sea,,"maths,visualization",2012-12-31,https://share.evernote.com/note/a4778f66-20dc-40b7-af1d-e16dcdeb7593,,
+how-far-away-is-the-sea,Y,Y,An app for calculating the shortest distance to the sea from any point on Earth.,https://how-far-away-is-the-sea.appspot.com/,https://github.com/tomwhite/how-far-away-is-the-sea,,"geo,maths,visualization",2012-12-31,https://share.evernote.com/note/a4778f66-20dc-40b7-af1d-e16dcdeb7593,,
 hyperbolic,Y,Y,A Java implementation of a draggable hyperbolic display.,http://tomwhite.github.io/hyperbolic/,https://github.com/tomwhite/hyperbolic,,"maths,visualization",1999-04-01,,,
-inaturalist-datashader-map,Y,N,A zoomable map of iNaturalist observations made using Datashader and Leaflet,,https://github.com/tomwhite/inaturalist-datashader-map,,"visualization,nature",,,,
+inaturalist-datashader-map,Y,N,A zoomable map of iNaturalist observations made using Datashader and Leaflet,,https://github.com/tomwhite/inaturalist-datashader-map,,"geo,visualization,nature",,,,
 inflector,Y,N,Inflector provides an API for forming the plurals of nouns.,,https://github.com/tomwhite/inflector,,,,https://share.evernote.com/note/11f1f6da-fec6-4700-aca9-120b05e1e620,,
 ingredient-phrase-tagger,N,N,Extract structured data from ingredient phrases using conditional random fields,,https://github.com/NYTimes/ingredient-phrase-tagger,,t1d,,https://share.evernote.com/note/2b24de3e-60a4-4752-899f-e12ab2f455ca,,
 ingreedy-data,Y,N,Code for preparing data for Ingreedy,,https://github.com/tomwhite/ingreedy-data,,t1d,,https://share.evernote.com/note/2b24de3e-60a4-4752-899f-e12ab2f455ca,,
@@ -90,7 +90,7 @@ ingreedy-visualization,Y,N,Experiments in visualizing food nutrients,,,,t1d,,,,
 ingreedy-word2vec,Y,N,Early experiments using ingreedy data with Diet2Vec,,,,t1d,,,,
 interlocking-cube,Y,N,Finding interlocking cube puzzles,,,,games,,https://share.evernote.com/note/5de6defd-9d50-48c1-9a42-ae44397325d0,,
 inversions,Y,Y,"Inspired by Scott Kim's ""Inversions"" I made two designs for my daughters.",https://github.com/tomwhite/inversions,https://github.com/tomwhite/inversions,,visualization,2015-12-01,,,"Martin Gardner, and Scott Kim, ""Inversions"""
-isitdayornight,Y,Y,HTML 5 geolocation code that works out if it's day or night,https://tomwhite.github.io/isitdayornight/,https://github.com/tomwhite/isitdayornight,,visualization,2011-04-01,,,
+isitdayornight,Y,Y,HTML 5 geolocation code that works out if it's day or night,https://tomwhite.github.io/isitdayornight/,https://github.com/tomwhite/isitdayornight,,"geo,visualization",2011-04-01,,,
 jamie-oliver-recipes,Y,N,Scraping recipes for carb counts,,,,t1d,,https://share.evernote.com/note/125fd63a-d01d-4c37-ab24-2fce48503808,,
 jekyll-website,Y,N,Old version of tomwhite.github.com,,,,,,,,
 l-game,Y,N,Java program to explore properties of the L Game,,,,games,,https://share.evernote.com/note/90bc4ec0-0260-4be2-95ef-91c840204d92,,Edward de Bono
@@ -106,7 +106,7 @@ longview,Y,Y,A way of looking at time from a long distance.,http://tomwhite.gith
 lottie-numbers,Y,N,"A Lottie number is a number for which the sum of its proper divisors (excluding 1), plus the number of divisor pairs is the number itself.",,,,maths,,https://share.evernote.com/note/0f05cc93-2c68-46d1-98d4-45f765431836,,
 mackerel,Y,N,"Which station on the London Tube map doesn't share any letters with ""mackerel""?",,https://gist.github.com/tomwhite/71a8a736d71b939d2eb46191109a76e8,,,,https://share.evernote.com/note/5af5177d-8c60-46fe-a75a-b0a6025b1b5e,,
 mandelbrot-1989,Y,Y,My programs to draw the Mandelbrot Set from 1989 using GFA Basic on the Atari ST.,https://github.com/tomwhite/mandelbrot-1989,https://github.com/tomwhite/mandelbrot-1989,,"retro-computing,visualization",2020-12-01,,,Martin Gardner
-mappix,Y,Y,Minimal pixellated maps,https://tomwhite.github.io/mappix/,https://github.com/tomwhite/mappix,,visualization,2018-10-01,,,
+mappix,Y,Y,Minimal pixellated maps,https://tomwhite.github.io/mappix/,https://github.com/tomwhite/mappix,,"geo,visualization",2018-10-01,,,
 mastermind,Y,Y,A program for playing the mastermind board game,https://github.com/tomwhite/mastermind,https://github.com/tomwhite/mastermind,,games,2014-12-01,,,
 metoffice_ec2,N,N,Open Climate Fix project to subset Met Office data on AWS EC2,,https://github.com/openclimatefix/metoffice_ec2,,,,https://share.evernote.com/note/a4894487-bb89-41a5-b557-bc9d0c2328a7,,
 most-beautiful-formula,Y,Y,Animating Euler's equation,https://tomwhite.github.io/most-beautiful-formula/,https://github.com/tomwhite/most-beautiful-formula,,visualization,2018-06-01,,,Martin Gardner
@@ -125,7 +125,7 @@ paper-folding,Y,N,Visualizations of paper folding,,,,visualization,,https://shar
 percy-davies,Y,N,Statistical analysis of donations to the Percy Davies Trust,,,,local-community,,,,
 periodic-table,Y,Y,"The Periodic Table, Animated",https://observablehq.com/@tomwhite/the-periodic-table-animated,https://github.com/tomwhite/periodic-table,,visualization,2021-03-01,,,
 plastic-numbers,Y,N,Visualization of 3D Padovan Sequences,,,,visualization,,https://share.evernote.com/note/4d82ff6c-ef3c-4e6a-9498-b48affcd073a,,"Ian Stewart, Math Hysteria"
-polarize,Y,N,A new optical puzzle,,https://github.com/tomwhite/polarize,,games,,https://share.evernote.com/note/f4f0c48a-1535-5ade-3c38-677efa83d0f6,,
+polarize,Y,Y,A light puzzle,,https://github.com/tomwhite/polarize,,games,2026-01-01,https://share.evernote.com/note/f4f0c48a-1535-5ade-3c38-677efa83d0f6,,
 pong,Y,Y,"An Arduino port of pypaddle, which is ""a paddle ball bouncing game very similar to Pong""",https://github.com/tomwhite/pong,https://github.com/tomwhite/pong,,"games,maker,retro-computing",2023-01-01,,,
 predict_pv_yield_nwp,N,N,Build a baseline model for predicting PV yield using NWP (numerical weather predictions),,https://github.com/openclimatefix/predict_pv_yield_nwp,,,,https://share.evernote.com/note/a4894487-bb89-41a5-b557-bc9d0c2328a7,,
 prisonersdilemma,Y,N,Axelrod's Iterated Prisoners' Dilemma contests,,https://github.com/tomwhite/prisonersdilemma,,games,,,,"Robert Axelrod, The Evolution of Co-operation"
