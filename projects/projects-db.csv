@@ -135,6 +135,7 @@ pyodide-curses,Y,N,Earlier version of pyodide-curses-mar-2022,,,,,,https://share
 pyodide-curses-mar-2022,Y,N,"Can we implement the minimal subset of (python) curses that (python) blessed uses, and use the node.js blessed as the implementation for pyodide?",,,,,,https://share.evernote.com/note/897b1c9d-d3f5-3d24-de88-3547f4702163,,
 pypaddle,N,N,A paddle ball bouncing game very similar to Pong,,https://github.com/arpruss/pypaddle,,games,,,pong,
 ql,Y,N,Programs for the Sinclair QL,,,,retro-computing,,https://share.evernote.com/note/ff49d3a8-48c0-428c-8428-62c1e9ee937b,,
+ql-cavern-map,Y,Y,A map of the QL Cavern game from 1985,https://tom-e-white.com/ql-cavern-map/,https://github.com/tomwhite/ql-cavern-map,,"games,retro-computing",2026-02-01,https://share.evernote.com/note/b18f87fa-4408-a7fc-b7aa-2072583e6621,,
 qltools,N,N,Qltools is a utility that allows you to access files stored on a QL Floppy Disc,,https://github.com/SinclairQL/qltools,,retro-computing,,,,
 qs,Y,N,A bunch of disparate scripts and code to analyse various things about my body,,,,,,,,
 qxltools,N,N,"Tools to manipulate Sinclair QL ""QXL.WIN"" files on numerous (!) operating systems.",,https://github.com/NormanDunbar/qxltools,,retro-computing,,,,
