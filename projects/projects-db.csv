@@ -63,7 +63,7 @@ enigma,Y,N,A few New Scientist Enigma puzzle solutions,,,,,,,,
 facebender,Y,Y,A project from A. K. Dewdney's 'The Armchair Universe' for producing caricatures.,https://github.com/tomwhite/facebender,https://github.com/tomwhite/facebender,,visualization,2002-04-01,https://share.evernote.com/note/540f22fb-dbb9-4b0a-898e-5c1285217637,,"A. K. Dewdney, 'The Armchair Universe'"
 false-summits,Y,Y,Visualizing false summits from GPX route traces,https://tom-e-white.com/false-summits/,https://github.com/tomwhite/false-summits,,"geo,visualization",2025-05-30,https://share.evernote.com/note/2443ea0c-58cc-b628-d59a-19005ab11b78,,
 ffawyddog.com,Y,N,Ffawyddog Phonebox website,https://ffawyddog.com/,https://github.com/tomwhite/ffawyddog.com,,local-community,,https://share.evernote.com/note/8b838a16-69be-4a3a-0172-042b08e33c8f,,
-freeloader,Y,N,Recreation of a cooperative group game from the Exploratorium in SF,,,,games,,https://share.evernote.com/note/d8ea9e2c-ef50-4f44-b962-1840f2cf426e,,"The Exploratorium, SF"
+freeloader,Y,N,Re-creation of a cooperative group game from the Exploratorium in SF,,,,games,,https://share.evernote.com/note/d8ea9e2c-ef50-4f44-b962-1840f2cf426e,,"The Exploratorium, SF"
 futoshiki,Y,N,Futoshiki solver using MiniZinc and js (superceded by futoshiki-hints),,,,games,,,futoshiki-hints,
 futoshiki-hints,Y,Y,Futoshiki puzzle hints for humans,https://github.com/tomwhite/futoshiki-hints,https://github.com/tomwhite/futoshiki-hints,,games,2021-02-01,https://share.evernote.com/note/528855e5-36e5-4e28-9012-cfed7b0e046b,futoshiki,
 ga,Y,N,A simple Java package for writing genetic algorithms (GAs).,,https://github.com/tomwhite/ga,,,,,,
@@ -136,6 +136,7 @@ pyodide-curses-mar-2022,Y,N,"Can we implement the minimal subset of (python) cur
 pypaddle,N,N,A paddle ball bouncing game very similar to Pong,,https://github.com/arpruss/pypaddle,,games,,,pong,
 ql,Y,N,Programs for the Sinclair QL,,,,retro-computing,,https://share.evernote.com/note/ff49d3a8-48c0-428c-8428-62c1e9ee937b,,
 ql-cavern-map,Y,Y,A map of the QL Cavern game from 1985,https://tom-e-white.com/ql-cavern-map/,https://github.com/tomwhite/ql-cavern-map,,"games,retro-computing",2026-02-01,https://share.evernote.com/note/b18f87fa-4408-a7fc-b7aa-2072583e6621,,
+ql-metropolis-map,Y,Y,A map of the QL Metropolis game from 1985,https://tom-e-white.com/ql-metropolis-map/,https://github.com/tomwhite/ql-metropolis-map,,"games,retro-computing",2026-02-28,,,
 qltools,N,N,Qltools is a utility that allows you to access files stored on a QL Floppy Disc,,https://github.com/SinclairQL/qltools,,retro-computing,,,,
 qs,Y,N,A bunch of disparate scripts and code to analyse various things about my body,,,,,,,,
 qxltools,N,N,"Tools to manipulate Sinclair QL ""QXL.WIN"" files on numerous (!) operating systems.",,https://github.com/NormanDunbar/qxltools,,retro-computing,,,,
