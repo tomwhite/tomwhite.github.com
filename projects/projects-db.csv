@@ -93,7 +93,7 @@ inversions,Y,Y,"Inspired by Scott Kim's ""Inversions"" I made two designs for my
 isitdayornight,Y,Y,HTML 5 geolocation code that works out if it's day or night,https://tomwhite.github.io/isitdayornight/,https://github.com/tomwhite/isitdayornight,,"geo,visualization",2011-04-01,,,
 jamie-oliver-recipes,Y,N,Scraping recipes for carb counts,,,,t1d,,https://share.evernote.com/note/125fd63a-d01d-4c37-ab24-2fce48503808,,
 jekyll-website,Y,N,Old version of tomwhite.github.com,,,,,,,,
-knitting-squares,Y,N,A knitting pattern where adjacent squares don't share a background or foreground colour,,https://gist.github.com/tomwhite/8db2999b3281b54ced92773805aa70a1,,visualization,2025-05-26,https://share.evernote.com/note/74a4b5f4-04cd-1b4c-ccfa-143813b78bce,,
+knitting-squares,Y,Y,A knitting pattern where adjacent squares don't share a background or foreground colour,https://gist.github.com/tomwhite/8db2999b3281b54ced92773805aa70a1,https://gist.github.com/tomwhite/8db2999b3281b54ced92773805aa70a1,,"family,maker,visualization",2025-05-26,https://share.evernote.com/note/74a4b5f4-04cd-1b4c-ccfa-143813b78bce,,
 l-game,Y,N,Java program to explore properties of the L Game,,,,games,,https://share.evernote.com/note/90bc4ec0-0260-4be2-95ef-91c840204d92,,Edward de Bono
 l-systems,Y,Y,Visualizing L-Systems,http://tomwhite.github.io/l-systems/,https://github.com/tomwhite/l-systems,,visualization,2010-11-01,,,The Algorithmic Beauty of Plants
 leaning-chairs,Y,Y,A curve created by chairs leaning against one another,http://tomwhite.github.io/leaning-chairs/,https://github.com/tomwhite/leaning-chairs,,visualization,2015-04-01,,,
