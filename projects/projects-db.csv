@@ -25,7 +25,6 @@ binarypi,Y,N,Calculating the nth binary digit of pi,,https://github.com/tomwhite
 birdcage,Y,Y,An Arduino recreation of Shannon's Bird Cage,https://github.com/tomwhite/birdcage,https://github.com/tomwhite/birdcage,,"games,gardner,maker",2021-01-01,,,"Gardner, Martin, (1961), More Mathematical Puzzles and Diversions, Penguin Books"
 birthday-roots,Y,N,Which year do you need to be born in so that you have a birthday year which is a power of your age?,,https://github.com/tomwhite/birthday-roots,,maths,,,,
 blockclock,Y,Y,A real digital clock,http://tomwhite.github.io/blockclock/,https://github.com/tomwhite/blockclock,,visualization,2002-01-01,,,
-blockclock-matrix,Y,N,Blockclock as an LED matrix,,,,"visualization,maker",,https://share.evernote.com/note/7105a9dc-459b-4420-fe78-a884cc314071,,
 blockclock-sweep,Y,N,Blockclock as a laser pointer,,,,"visualization,maker",,https://share.evernote.com/note/9144742f-766a-4f0f-8006-00c8be116dbc,,
 bolus-calc,Y,N,Experiments in calculating insulin bolus amounts for T1D,,,,t1d,,,,
 carbon-footprint,Y,N,Calculating our household carbon footprint in 2017,,,,"green,home",,https://share.evernote.com/note/c9329f1b-9d84-4b60-81cc-f3827703a1e6,,
@@ -49,6 +48,7 @@ datashader-leaflet,Y,N,Using Leaflet to view Datashader visualizations,,,,visual
 datavision,Y,Y,A weekly data visualization in 2020,http://tom-e-white.com/datavision/,https://github.com/tomwhite/datavision-code,,visualization,2020-01-01,,,
 datavision-code,Y,N,Code for Datavision 2020,https://tom-e-white.com/datavision/,https://github.com/tomwhite/datavision-code,,visualization,,,,
 david,Y,Y,From what position will a statue such as this appear of maximum size?,https://observablehq.com/@tomwhite/david,https://github.com/tomwhite/david,,visualization,2023-02-01,,,"""The Penguin Dictionary of Curious and Interesting Geometry"" by David Wells (p3)"
+daylight-block-clock,Y,Y,A clock that shows the progression of time through the daylight hours - on a grid,https://tom-e-white.com/daylight-block-clock/,https://github.com/tomwhite/daylight-block-clock,,"visualization,maker",2026-07-01,https://share.evernote.com/note/7105a9dc-459b-4420-fe78-a884cc314071,,
 dboard,Y,N,A dashboard for Type 1 Diabetes.,,https://github.com/tomwhite/dboard,,"t1d,visualization",,https://share.evernote.com/note/aec18458-d913-4d2a-9001-925fb3a4a2c7,,
 dboard-js,Y,N,Javascript version of dboard,,,,"t1d,visualization",,https://share.evernote.com/note/3810ac8b-5b14-45de-8720-215ff0ebce51,,
 diabetes-site-rotation,Y,N,Diagram for injection sites,,,,t1d,,,,
