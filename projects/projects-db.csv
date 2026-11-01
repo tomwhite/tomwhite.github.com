@@ -171,6 +171,7 @@ tomwhite.github.com,Y,N,My website (tom-e-white.com),https://tom-e-white.com/,ht
 topple,Y,N,Unsuccessful experiment to create a balancing game using blocks (based on Nature's blox),,,,games,,https://share.evernote.com/note/6360a89b-73bc-fef6-b969-8eb966ff21eb,,
 tournesol,Y,N,Phyllotaxis in Java,,https://github.com/tomwhite/tournesol,,"visualization,maths,nature",,,,
 tournesol-js,Y,N,Phyllotaxis in JavaScript,,,,"visualization,maths,nature",,,,
+tmz,Y,Y,The Thue-Morse sequence and Z-order curves,https://tom-e-white.com/tmz/,https://github.com/tomwhite/tmz,,"visualization,maths",2026-11-01,,,
 tree-preservation-orders,Y,N,Unfinished code to analyse Welsh tree preservation orders dataset,,,,local-community,,,,
 vegbox,Y,N,Scrape Riverford website to find what's in this week's vegbox,,,,home,,,,
 vstack-and-rechunk,Y,N,Experiments to fix https://github.com/dask/dask/issues/5105,,,,arrays,,,,
