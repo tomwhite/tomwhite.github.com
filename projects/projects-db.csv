@@ -121,7 +121,7 @@ op-art-dask,Y,N,Animated array operations for Dask,,,,"arrays,visualization",,,o
 outguessing,Y,Y,An Arduino recreation of Shannon's Mind Reading Machine,https://github.com/tomwhite/outguessing,https://github.com/tomwhite/outguessing,,"games,maker,retro-computing",2016-01-01,https://share.evernote.com/note/55ebee34-d394-418a-85c0-01b81ebd16f3,,
 outguessing-java,Y,N,A Java version of Shannon's Mind Reading Machine,,,,"games,retro-computing",,,outguessing,
 pangrams,Y,Y,Code to search for (Lee Sallows) pangrams for my family,https://github.com/tomwhite/pangrams,https://github.com/tomwhite/pangrams,,"family,maths",2016-11-27,https://share.evernote.com/note/54a83291-2d20-4b38-be36-ea0d65e294e5,,"A. K. Dewdney, 'The Armchair Universe'"
-paper-folding,Y,N,Visualizations of paper folding,,,,visualization,,https://share.evernote.com/note/31db5818-6423-4d90-8fe8-14ac91eab445,,
+paper-folding,Y,Y,What shape is a piece of paper after being folded over and over?,https://tom-e-white.com/paper-folding/,https://github.com/tomwhite/paper-folding,,"maths,visualization",2026-11-15,https://share.evernote.com/note/31db5818-6423-4d90-8fe8-14ac91eab445,,
 percy-davies,Y,N,Statistical analysis of donations to the Percy Davies Trust,,,,local-community,,,,
 periodic-table,Y,Y,"The Periodic Table, Animated",https://observablehq.com/@tomwhite/the-periodic-table-animated,https://github.com/tomwhite/periodic-table,,visualization,2021-03-01,,,
 plastic-numbers,Y,N,Visualization of 3D Padovan Sequences,,,,"maths,visualization",,https://share.evernote.com/note/4d82ff6c-ef3c-4e6a-9498-b48affcd073a,,"Ian Stewart, Math Hysteria"
