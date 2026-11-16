@@ -34,7 +34,7 @@ the Hadoop startup, as its second employee.
 Then just one year later, Eliane, the girls, and I upped sticks again and moved to San Francisco,
 where we lived until we returned to Wales in 2012.
 At Cloudera, I continued my work on core Hadoop and its growing ecosystem of projects
-and tools. Then in 2014 I moved roles at Cloudera from engineering to the data science team, where I got
+and tools. Then in 2015 I moved roles at Cloudera from engineering to the data science team, where I got
 a taste for solving challenging problems in big data, like genomics (previously I had
 been building the systems that others used to solve the problems).
 
@@ -53,4 +53,4 @@ In June 2020, I went back to the world of big data and genomics and joined Jeff 
 
 In 2022 I founded a new project called [Cubed](https://github.com/cubed-dev/cubed) as a drop-in replacement for Dask. As a result of this I started working with the [Pangeo](https://discourse.pangeo.io/) community on the problem of how to scale up geoscience workloads to run on cloud infrastructure.
 
-_If you want to chat about any of the above or projects you think I may find interesting, then [please get in touch](mailto:tom.e.white@gmail.com). I also have a [LinkedIn Profile](https://www.linkedin.com/in/tomwhite/)_
+_If you want to chat about any of the above or projects you think I may find interesting, then [please get in touch](mailto:tom.e.white@gmail.com). I also have a [LinkedIn Profile](https://www.linkedin.com/in/tomwhite/), and a short third-person [bio](/bio/)._

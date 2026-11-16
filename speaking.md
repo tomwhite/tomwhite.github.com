@@ -5,6 +5,7 @@ permalink: /speaking/
 ---
 
 I give occasional technical talks on distributed computing and related topics at conferences and meetups.
+There's a short [bio](/bio/) for event organisers.
 
 - _Dask and Genomics_, Dask Life Science Workshop, Dask Distributed Summit 2021, [[slides]](https://docs.google.com/presentation/d/1Fv3Tca4HA6bUfdHpD7fPY-zZPw5LEcmBn4rxeKV1Uzg/edit#slide=id.p) [[video]](https://www.youtube.com/watch?v=qt6YsHoPpZs&list=PLJ0vO2F_f6OBAY6hjRHM_mIQ9yh32mWr0&index=3)
 - [_Single Cell. Big Data_](https://2019.bris.tech/tom-white), Bristech 2019, Bristol, 7 November 2019, [[slides]]({{ site.url }}/assets/talks/Single_Cell_Big Data_Bristech_2019.pptx) [[video]](https://2019.bris.tech/tom-white) [[my blog post]]({{ site.url }}/2019/11/bristech-2019.html)

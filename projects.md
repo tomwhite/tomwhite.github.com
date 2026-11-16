@@ -4,29 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-Some of the projects I've worked on, and my areas of interest and expertise, in no particular order:
-
-## Cubed
-
-[Cubed](https://github.com/cubed-dev/cubed) is a project I started in 2022 as a drop-in replacement for Dask, to make
-running large-scale array processing workloads more reliable. It has been used for workloads in sgkit (genomics) and Pangeo (geoscience).
-
-## Hadoop
-
-I was one of the first committers on [Apache Hadoop](https://hadoop.apache.org/), and worked on it and many other distributed systems projects in the Hadoop ecosystem for the best part of a decade while working at [Cloudera](https://www.cloudera.com/). I wrote four editions of the bestselling book [Hadoop: The Definitive Guide](http://www.hadoopbook.com/), published by O'Reilly.
-
-## Genomics
-
-In June 2020, I started working for [Related Sciences](https://www.related.vc/) on [sgkit](https://github.com/pystatgen/sgkit), a statistical genetics toolkit based on PyData technologies like Dask, Xarray, and Zarr. This work culminated in a new Zarr-based file format for variant data ([VCF Zarr](https://github.com/sgkit-dev/vcf-zarr-spec)), new tools for working with this data ([bio2zarr](https://github.com/sgkit-dev/bio2zarr) and [vcztools](https://github.com/sgkit-dev/vcztools)), and a published paper: ['Analysis-ready VCF at Biobank scale using Zarr'](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giaf049/8154315).
-
-I ported the single cell preprocessing pipeline in [Scanpy](https://scanpy.readthedocs.io/) so it could run in parallel using [Dask](https://dask.org/), and on GPUs using [RAPIDS](https://rapids.ai/).
-
-I was the primary author of Spark support in [GATK](https://software.broadinstitute.org/gatk/), working with members of the [Broad Institute](https://www.broadinstitute.org/) GATK team from 2015 to 2019. I also created [Disq](https://github.com/disq-bio/disq) for reading and writing bioinformatics sequencing formats from Spark.
-
-## SciPy
-
-I have made contributions to the dimensionality reduction software [UMAP](https://umap-learn.readthedocs.io/) and the related project
-[pynndescent](https://github.com/lmcinnes/pynndescent) (for calculating approximate nearest neighbours).
+Some of the projects I've worked on in my spare time, and my areas of interest, in no particular order.
+(For my professional work, see [Work](/work/), and for a list of all my projects, see the [Directory](/directory/).)
 
 ## Open Data
 
@@ -38,7 +17,7 @@ In 2019 I produced the data analyses and visualizations of Welsh school funding 
 
 In 2020 I wrote a [blog about data visualization](http://tom-e-white.com/datavision/), and created one new visualization per week - with no constraints on dataset, visualization type, or technology.
 
-Over the years I've created many [geometric visualizations](/projects/all.html?topic=visualization) in my spare time.
+Over the years I've created many [geometric visualizations](/directory/) in my spare time.
 
 ## Diabetes tech
 
@@ -57,9 +36,3 @@ In 2022 I [refurbished](https://tom-e-white.com/2022/12/refurbishing-my-zx81.htm
 In 2025 I refurbished the second computer I owned, a QL.
 
 Using an emulator I've re-run a [Mandelbrot Set drawing program](https://github.com/tomwhite/mandelbrot-1989) that I wrote for my third computer, an Atari ST.
-
-## Directory
-
-[All](/projects/all.html) | [Games](/projects/all.html?topic=games) | [Maker](/projects/all.html?topic=maker) | [Maths](/projects/all.html?topic=maths) | [Retro computing](/projects/all.html?topic=retro-computing) | [Visualization](/projects/all.html?topic=visualization)
-
-See also: [my professional open source contributions over time](/projects/open-source.html).

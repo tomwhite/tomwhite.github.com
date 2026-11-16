@@ -38,8 +38,9 @@ plugins:
 # Pages shown in the header nav (otherwise every page with a title is shown)
 header_pages:
   - about.md
-  - bio.md
+  - work.md
   - projects.md
+  - directory/index.html
   - speaking.md
   - writing.md
 

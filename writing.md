@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-Here is a list of my published articles in reverse chronological order. There are more posts on this [blog](/), and I have also written a [book on Hadoop](http://www.hadoopbook.com/).
+Here is a list of my published articles in reverse chronological order. There are more posts on this [blog](/), and I have also written a bestselling [book on Hadoop](http://www.hadoopbook.com/).
 
 * [Analysis-ready VCF at Biobank scale using Zarr](https://doi.org/10.1093/gigascience/giaf049), Czech _et al_, GigaScience, Volume 14, 2 June 2025
 * [Optimizing Cubed](https://medium.com/pangeo/optimizing-cubed-7a0b8f65f5b7), Pangeo blog, 3 April 2024

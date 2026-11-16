@@ -1,0 +1,106 @@
+---
+layout: page
+title: Directory
+permalink: /directory/
+---
+
+<style>
+  .topic-buttons { margin-bottom: 10px; }
+  .topic-buttons button {
+    font: inherit;
+    font-size: 14px;
+    margin: 0 6px 6px 0;
+    padding: 2px 10px;
+    border: 1px solid #2a7ae2;
+    border-radius: 14px;
+    background: #fff;
+    color: #2a7ae2;
+    cursor: pointer;
+  }
+  .topic-buttons button.active { background: #2a7ae2; color: #fff; }
+  .result-count { color: #828282; font-size: 14px; }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  /* One column on phones (minima's own mobile breakpoint) */
+  @media screen and (max-width: 600px) {
+    .project-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+  .project-card { border: 1px solid #e8e8e8; border-radius: 4px; overflow: hidden; }
+  .project-card .logo { aspect-ratio: 1; display: block; }
+  .project-card .logo img { width: 100%; height: 100%; object-fit: cover; object-position: left; }
+  .project-card .body { padding: 12px; }
+  .project-card h3 { font-size: 20px; margin-bottom: 8px; }
+  .project-card p { line-height: 1.4; }
+  .project-card p { margin-bottom: 5px; }
+  .project-card .links a { margin-right: 10px; }
+</style>
+
+<p>My personal projects (more on <a href="https://github.com/tomwhite?tab=repositories">GitHub</a>). Filter by topic:</p>
+
+<div class="topic-buttons" id="topic-buttons"></div>
+<p class="result-count" id="result-count"></p>
+<div class="project-grid" id="projects"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  const splitTopics = d => d.topics ? d.topics.split(",").map(t => t.trim()) : [];
+
+  d3.csv("/data/projects.csv").then(function(data) {
+    // In reverse chronological order
+    const projects = d3.sort(data, (a, b) => d3.descending(a.date, b.date));
+    const topics = Array.from(new Set(projects.flatMap(splitTopics))).sort();
+
+    // Topic can be set from the URL, e.g. /directory/?topic=maths
+    let activeTopic = new URLSearchParams(location.search).get("topic");
+    if (!topics.includes(activeTopic)) activeTopic = null;
+
+    const buttons = d3.select("#topic-buttons").selectAll("button")
+      .data(topics)
+      .join("button")
+      .text(d => d)
+      .on("click", function(event, topic) {
+        activeTopic = activeTopic === topic ? null : topic;
+        const url = new URL(location);
+        if (activeTopic) url.searchParams.set("topic", activeTopic);
+        else url.searchParams.delete("topic");
+        history.replaceState(null, "", url);
+        render();
+      });
+
+    function render() {
+      buttons.classed("active", d => d === activeTopic);
+      const filtered = activeTopic
+        ? projects.filter(d => splitTopics(d).includes(activeTopic))
+        : projects;
+
+      d3.select("#result-count").text(activeTopic
+        ? `Showing ${filtered.length} of ${projects.length} projects`
+        : `${projects.length} projects`);
+
+      const cards = d3.select("#projects").selectAll(".project-card")
+        .data(filtered, d => d.name)
+        .join(enter => {
+          const card = enter.append("div").attr("class", "project-card");
+          const link = d => d.homepage || d.html_url;
+          card.append("a").attr("class", "logo").attr("href", link)
+            .append("img")
+            .attr("src", d => d.logo_url || `https://raw.githubusercontent.com/tomwhite/${d.name}/master/logo.png`)
+            .attr("alt", d => `${d.name} logo`)
+            .on("error", function() { this.parentElement.style.display = "none"; });
+          const body = card.append("div").attr("class", "body");
+          body.append("h3").append("a").attr("href", link).text(d => d.name);
+          body.append("p").text(d => d.description);
+          const links = body.append("div").attr("class", "links");
+          links.filter(d => d.homepage).append("a").attr("href", d => d.homepage).text("More...");
+          links.filter(d => d.html_url).append("a").attr("href", d => d.html_url).text("Code");
+          return card;
+        });
+      cards.order();
+    }
+
+    render();
+  }).catch(error => console.error("Error loading CSV:", error));
+</script>
