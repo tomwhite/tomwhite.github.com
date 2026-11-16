@@ -55,3 +55,19 @@ permalink: /:categories/:year/:month/:title:output_ext
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Setting this replaces Jekyll's default list, so the defaults are repeated here.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # Local tools and notes that shouldn't be published
+  - projects/README.md
+  - projects/create-logo.html
