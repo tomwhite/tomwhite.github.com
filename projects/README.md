@@ -2,20 +2,9 @@
 
 A website with links to some of my projects.
 
+Project metadata comes from _projects-db.csv_, which is maintained in the project-curation project.
+
 ### Tools
-
-#### Project descriptions
-
-Metadata for each project is pulled from GitHub: the name, description, homepage, and code URL.
-
-Start a local server:
-
-```bash
-python -m SimpleHTTPServer 8008
-```
-
-Go to http://localhost:8008/create-project-json.html, then copy the contents of downloaded
-file to the relevant place in _index.html_.
 
 #### Project logo
 
