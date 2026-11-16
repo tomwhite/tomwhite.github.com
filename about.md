@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Tom]({{ site.url }}/assets/tom_white.jpg)
+![Tom]({{ site.url }}/assets/tom_white.jpg){: style="height: 200px; float: right; margin: 0 0 10px 20px;"}
 
 I was born in 1973 and grew up in [Ironbridge, Shropshire](https://en.wikipedia.org/wiki/Ironbridge).
 I studied mathematics at [Queens' College, Cambridge](https://en.wikipedia.org/wiki/Queens%27_College,_Cambridge),
