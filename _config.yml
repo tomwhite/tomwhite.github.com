@@ -33,6 +33,15 @@ mastodon:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+# Pages shown in the header nav (otherwise every page with a title is shown)
+header_pages:
+  - about.md
+  - bio.md
+  - projects.md
+  - speaking.md
+  - writing.md
 
 permalink: /:categories/:year/:month/:title:output_ext
 

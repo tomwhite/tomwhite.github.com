@@ -38,7 +38,7 @@ In 2019 I produced the data analyses and visualizations of Welsh school funding 
 
 In 2020 I wrote a [blog about data visualization](http://tom-e-white.com/datavision/), and created one new visualization per week - with no constraints on dataset, visualization type, or technology.
 
-Over the years I've created many [geometric visualizations](/projects/visualization.html) in my spare time.
+Over the years I've created many [geometric visualizations](/projects/all.html?topic=visualization) in my spare time.
 
 ## Diabetes tech
 
@@ -60,4 +60,6 @@ Using an emulator I've re-run a [Mandelbrot Set drawing program](https://github.
 
 ## Directory
 
-[All](/projects/all.html) | [Games](/projects/games.html) | [Maker](/projects/maker.html) | [Maths](/projects/maths.html) | [Retro computing](/projects/retro-computing.html) | [Visualization](/projects/visualization.html)
+[All](/projects/all.html) | [Games](/projects/all.html?topic=games) | [Maker](/projects/all.html?topic=maker) | [Maths](/projects/all.html?topic=maths) | [Retro computing](/projects/all.html?topic=retro-computing) | [Visualization](/projects/all.html?topic=visualization)
+
+See also: [my professional open source contributions over time](/projects/open-source.html).

@@ -1,0 +1,57 @@
+name,description,homepage,html_url,logo_url,topics,date
+plastic-numbers,Visualising the Padovan sequence in 3D,https://tom-e-white.com/plastic-numbers/,https://github.com/tomwhite/plastic-numbers,,"maths,visualization",2026-11-16
+paper-folding,What shape is a piece of paper after being folded over and over?,https://tom-e-white.com/paper-folding/,https://github.com/tomwhite/paper-folding,,"maths,visualization",2026-11-15
+tmz,The Thue-Morse sequence and Z-order curves,https://tom-e-white.com/tmz/,https://github.com/tomwhite/tmz,,"visualization,maths",2026-11-01
+daylight-block-clock,A clock that shows the progression of time through the daylight hours - on a grid,https://tom-e-white.com/daylight-block-clock/,https://github.com/tomwhite/daylight-block-clock,,"visualization,maker",2026-07-01
+ql-metropolis-map,A map of the QL Metropolis game from 1985,https://tom-e-white.com/ql-metropolis-map/,https://github.com/tomwhite/ql-metropolis-map,,"games,retro-computing",2026-02-28
+ql-cavern-map,A map of the QL Cavern game from 1985,https://tom-e-white.com/ql-cavern-map/,https://github.com/tomwhite/ql-cavern-map,,"games,retro-computing",2026-02-01
+polarize,A light puzzle,https://tom-e-white.com/polarize/,https://github.com/tomwhite/polarize,,games,2026-01-01
+lidar-house,A Minecraft-style rendering of my house using Welsh Government LiDAR data,https://observablehq.com/d/6fc264dbfd8361b8,https://observablehq.com/d/6fc264dbfd8361b8,https://tom-e-white.com/projects/assets/lidar-house/logo.png,"geo,visualization",2025-08-27
+thehill,A two-player game from 1985 written in Sinclair QL SuperBASIC,https://tom-e-white.com/thehill/,https://github.com/tomwhite/thehill,,"games,retro-computing",2025-08-16
+ardubat,Visualizations of bat activity over the year using an Arduino bat detector,https://observablehq.com/d/682fb4043d9dadb7,https://github.com/tomwhite/ardubat,,"maker,nature,visualization",2025-07-20
+false-summits,Visualizing false summits from GPX route traces,https://tom-e-white.com/false-summits/,https://github.com/tomwhite/false-summits,,"geo,visualization",2025-05-30
+knitting-squares,A knitting pattern where adjacent squares don't share a background or foreground colour,https://gist.github.com/tomwhite/8db2999b3281b54ced92773805aa70a1,https://gist.github.com/tomwhite/8db2999b3281b54ced92773805aa70a1,,"family,maker,visualization",2025-05-26
+ge-2024,An animation that relives the night of the Labour landslide,https://tom-e-white.com/ge-2024/,https://github.com/tomwhite/ge-2024,,"geo,visualization",2024-07-01
+mackerel,"Which station on the London Tube map doesn't share any letters with ""mackerel""?",https://gist.github.com/tomwhite/71a8a736d71b939d2eb46191109a76e8,https://gist.github.com/tomwhite/71a8a736d71b939d2eb46191109a76e8,https://tom-e-white.com/projects/assets/mackerel/logo.png,maths,2023-12-30
+8-bit-computer,Ben Eater's 8-bit computer in CircuitJS1,https://github.com/tomwhite/8-bit-computer,https://github.com/tomwhite/8-bit-computer,,retro-computing,2023-02-01
+david,From what position will a statue such as this appear of maximum size?,https://observablehq.com/@tomwhite/david,https://github.com/tomwhite/david,,visualization,2023-02-01
+pong,"An Arduino port of pypaddle, which is ""a paddle ball bouncing game very similar to Pong""",https://github.com/tomwhite/pong,https://github.com/tomwhite/pong,,"games,maker,retro-computing",2023-01-01
+reflect,An optical puzzle,https://tom-e-white.com/reflect/,https://github.com/tomwhite/reflect,,games,2023-01-01
+zx81-not-only-30-programs,"Run the programs from ""Not Only 30 Programs for the Sinclair ZX81"" in your browser",https://tomwhite.github.io/zx81-not-only-30-programs/web/index.html,https://github.com/tomwhite/zx81-not-only-30-programs,,"games,retro-computing",2023-01-01
+zx81-refurb,How I refurbished my ZX81,https://tom-e-white.com/2022/12/refurbishing-my-zx81.html,https://github.com/tomwhite/zx81-refurb,,"maker,retro-computing",2022-12-01
+saidak-primes,Computing Saidak primes,https://github.com/tomwhite/saidak-primes/blob/main/saidak.ipynb,https://github.com/tomwhite/saidak-primes,,maths,2022-01-16
+riemann-staircase,Notebooks for computing approximations to the prime counting function using Riemann's formula.,https://observablehq.com/@tomwhite/riemann-staircase,https://github.com/tomwhite/riemann-staircase,,"maths,visualization",2021-12-01
+op-art,Animated array operations,https://tom-e-white.com/op-art/,https://github.com/tomwhite/op-art,,"arrays,visualization",2021-04-22
+periodic-table,"The Periodic Table, Animated",https://observablehq.com/@tomwhite/the-periodic-table-animated,https://github.com/tomwhite/periodic-table,,visualization,2021-03-01
+futoshiki-hints,Futoshiki puzzle hints for humans,https://github.com/tomwhite/futoshiki-hints,https://github.com/tomwhite/futoshiki-hints,,games,2021-02-01
+birdcage,An Arduino recreation of Shannon's Bird Cage,https://github.com/tomwhite/birdcage,https://github.com/tomwhite/birdcage,,"games,gardner,maker",2021-01-01
+mandelbrot-1989,My programs to draw the Mandelbrot Set from 1989 using GFA Basic on the Atari ST.,https://github.com/tomwhite/mandelbrot-1989,https://github.com/tomwhite/mandelbrot-1989,,"gardner,retro-computing,visualization",2020-12-01
+datavision,A weekly data visualization in 2020,http://tom-e-white.com/datavision/,https://github.com/tomwhite/datavision-code,,visualization,2020-01-01
+chinesechequers,Play Chinese Chequers against the computer,https://tom-e-white.com/chinesechequers/,https://github.com/tomwhite/chinesechequers,,games,2019-01-04
+mappix,Minimal pixellated maps,https://tomwhite.github.io/mappix/,https://github.com/tomwhite/mappix,,"geo,visualization",2018-10-01
+most-beautiful-formula,Animating Euler's equation,https://tomwhite.github.io/most-beautiful-formula/,https://github.com/tomwhite/most-beautiful-formula,,"gardner,visualization",2018-06-01
+zx81-frogging,The first program I ever wrote,http://tom-e-white.com/zx81-frogging/web/frogging.html,https://github.com/tomwhite/zx81-frogging,,"games,retro-computing",2018-01-01
+set-game,Play SET using image recognition and deep learning,https://github.com/tomwhite/set-game,https://github.com/tomwhite/set-game,,games,2017-01-01
+pangrams,Code to search for (Lee Sallows) pangrams for my family,https://github.com/tomwhite/pangrams,https://github.com/tomwhite/pangrams,,"family,maths",2016-11-27
+outguessing,An Arduino recreation of Shannon's Mind Reading Machine,https://github.com/tomwhite/outguessing,https://github.com/tomwhite/outguessing,,"games,maker,retro-computing",2016-01-01
+inversions,"Inspired by Scott Kim's ""Inversions"" I made two designs for my daughters.",https://github.com/tomwhite/inversions,https://github.com/tomwhite/inversions,,"family,gardner,visualization",2015-12-01
+cubesum,The sum of the first n cubes equals the square of the sum of the first n numbers.,http://tomwhite.github.io/cubesum,https://github.com/tomwhite/cubesum,,"gardner,visualization",2015-10-01
+leaning-chairs,A curve created by chairs leaning against one another,http://tomwhite.github.io/leaning-chairs/,https://github.com/tomwhite/leaning-chairs,,visualization,2015-04-01
+tennis-ball-parabola,Plotting a parabola by filming a tennis ball throw.,http://www.tom-e-white.com/2015/03/tennis-ball-parabola.html,https://github.com/tomwhite/tennis-ball-parabola,,visualization,2015-03-01
+mastermind,A program for playing the mastermind board game,https://github.com/tomwhite/mastermind,https://github.com/tomwhite/mastermind,,games,2014-12-01
+dusk,A program to plot the time of dusk over the year for any given location on the Earth's surface,http://tomwhite.github.io/dusk/,https://github.com/tomwhite/dusk,,"geo,visualization",2014-01-01
+egg-construction,Compass constructions for egg shapes from 'Mathographics' by Robert Dixon,http://tomwhite.github.io/egg-construction/index.html,https://github.com/tomwhite/egg-construction,,visualization,2013-09-01
+earth-moon-game,A game: how far is the Moon from the Earth?,https://tomwhite.github.io/earth-moon-game,https://github.com/tomwhite/earth-moon-game,,"games,geo,visualization",2013-03-01
+how-far-away-is-the-sea,An app for calculating the shortest distance to the sea from any point on Earth.,https://how-far-away-is-the-sea.appspot.com/,https://github.com/tomwhite/how-far-away-is-the-sea,,"geo,maths,visualization",2012-12-31
+apportionment,Calculating apportionments for the House of Representatives using the Huntington-Hill method.,https://tom-e-white.com/2012/12/apportionment.html,https://github.com/tomwhite/apportionment,,maths,2012-07-01
+d3troit,A d3 visualization of the changing populations of the largest cities in the US,http://tomwhite.github.io/d3troit/index.html,https://github.com/tomwhite/d3troit,,visualization,2012-07-01
+isitdayornight,HTML 5 geolocation code that works out if it's day or night,https://tomwhite.github.io/isitdayornight/,https://github.com/tomwhite/isitdayornight,,"geo,visualization",2011-04-01
+l-systems,Visualizing L-Systems,http://tomwhite.github.io/l-systems/,https://github.com/tomwhite/l-systems,,"gardner,visualization",2010-11-01
+gaussian-primes,Visualization of Gaussian primes,http://tomwhite.github.io/gaussian-primes/xmas-lines.html,https://github.com/tomwhite/gaussian-primes,,visualization,2009-12-01
+facebender,A project from A. K. Dewdney's 'The Armchair Universe' for producing caricatures.,https://github.com/tomwhite/facebender,https://github.com/tomwhite/facebender,,visualization,2002-04-01
+longview,A way of looking at time from a long distance.,http://tomwhite.github.io/longview/,https://github.com/tomwhite/longview,,visualization,2002-03-01
+superellipse,A program to generate Piet Hein's superellipses.,https://observablehq.com/@tomwhite/superellipse-generator,https://github.com/tomwhite/superellipse,,"gardner,visualization",2002-03-01
+blockclock,A real digital clock,http://tomwhite.github.io/blockclock/,https://github.com/tomwhite/blockclock,,visualization,2002-01-01
+hyperbolic,A Java implementation of a draggable hyperbolic display.,http://tomwhite.github.io/hyperbolic/,https://github.com/tomwhite/hyperbolic,,"maths,visualization",1999-04-01
+alhambra,A Java API for experimenting with tilings and patterns.,http://tomwhite.github.io/alhambra/,https://github.com/tomwhite/alhambra,,"gardner,visualization",1998-08-01
+chernoff,A visual mood indicator. One of the first Java programs I ever wrote.,http://tomwhite.github.io/chernoff/,https://github.com/tomwhite/chernoff,,visualization,1997-04-01
