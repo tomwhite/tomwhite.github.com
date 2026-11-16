@@ -6,6 +6,7 @@ permalink: /writing/
 
 Here is a list of my published articles in reverse chronological order. There are more posts on this [blog](/), and I have also written a bestselling [book on Hadoop](http://www.hadoopbook.com/).
 
+* [Announcing map-lambda and a rechunk benchmark](https://tom-e-white.com/map-lambda/blog/2026/10/20/announcing-map-lambda-and-a-rechunk-benchmark/), map-lambda project blog, 20 October 2026
 * [Analysis-ready VCF at Biobank scale using Zarr](https://doi.org/10.1093/gigascience/giaf049), Czech _et al_, GigaScience, Volume 14, 2 June 2025
 * [Optimizing Cubed](https://medium.com/pangeo/optimizing-cubed-7a0b8f65f5b7), Pangeo blog, 3 April 2024
 * [Cubed: Bounded-memory serverless array processing in xarray](https://xarray.dev/blog/cubed-xarray), with Tom Nicholas, Xarray blog, 28 June 2023
